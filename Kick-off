@@ -1,0 +1,4 @@
+index.html        ← la página principal
+styles.css        ← estilos
+app.js            ← lógica (checklist, progreso guardado en el navegador)
+content/es.json   ← el contenido de las 8 semanas en español
