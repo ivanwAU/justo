@@ -1,0 +1,324 @@
+{
+  "weeks": [
+    {
+      "title": {
+        "es": "Semana 1: Llegar y respirar",
+        "en": "Week 1: Arrive and breathe",
+        "pt": "Semana 1: Chegar e respirar"
+      },
+      "intro": {
+        "es": "Tu primer contacto con Australia. Lo importante es cubrir lo básico.",
+        "en": "Your first contact with Australia. The goal is to cover the basics.",
+        "pt": "Seu primeiro contato com a Austrália. O importante é cobrir o básico."
+      },
+      "tasks": {
+        "es": [
+          "Pasar migración y aduana, y recoger tu equipaje",
+          "Llegar a tu alojamiento temporal",
+          "Conseguir una SIM o plan de celular local",
+          "Descansar, comer bien y tomar agua",
+          "Ubicar la parada de transporte público más cercana"
+        ],
+        "en": [
+          "Clear immigration and customs, and collect your baggage",
+          "Reach your temporary accommodation",
+          "Get a local SIM or mobile plan",
+          "Rest, eat well and drink water",
+          "Locate the nearest public transport stop"
+        ],
+        "pt": [
+          "Passar pela imigração e alfândega e retirar a bagagem",
+          "Chegar à sua acomodação temporária",
+          "Conseguir um chip ou plano de celular local",
+          "Descansar, comer bem e beber água",
+          "Localizar o ponto de transporte público mais próximo"
+        ]
+      },
+      "reminder": {
+        "es": "No intentes resolver todo hoy. Es normal sentirse abrumado. Prioriza: dormir, comer e internet.",
+        "en": "Don't try to solve everything today. Feeling overwhelmed is normal. Prioritise: sleep, food, internet.",
+        "pt": "Não tente resolver tudo hoje. É normal se sentir sobrecarregado. Priorize: sono, comida e internet."
+      }
+    },
+    {
+      "title": {
+        "es": "Semana 2: Papeles y cuentas",
+        "en": "Week 2: Documents and accounts",
+        "pt": "Semana 2: Documentos e contas"
+      },
+      "intro": {
+        "es": "Abre tu cuenta bancaria y ordena los documentos básicos.",
+        "en": "Open your bank account and organise your basic documents.",
+        "pt": "Abra sua conta bancária e organize seus documentos básicos."
+      },
+      "tasks": {
+        "es": [
+          "Abrir una cuenta bancaria (CBA, Westpac, NAB, ANZ o ING)",
+          "Solicitar tu TFN (Tax File Number) en la web oficial del ATO, que es gratis",
+          "Guardar copias digitales de tus documentos en un lugar seguro",
+          "Registrar tu dirección australiana en el banco",
+          "Crear tu cuenta myGov si tu situación lo permite"
+        ],
+        "en": [
+          "Open a bank account (CBA, Westpac, NAB, ANZ or ING)",
+          "Apply for your TFN (Tax File Number) on the official ATO website, which is free",
+          "Keep digital copies of your documents somewhere safe",
+          "Register your Australian address with your bank",
+          "Create your myGov account if your situation allows it"
+        ],
+        "pt": [
+          "Abrir uma conta bancária (CBA, Westpac, NAB, ANZ ou ING)",
+          "Solicitar seu TFN (Tax File Number) no site oficial do ATO, que é gratuito",
+          "Guardar cópias digitais dos seus documentos em um lugar seguro",
+          "Registrar seu endereço australiano no banco",
+          "Criar sua conta myGov se a sua situação permitir"
+        ]
+      },
+      "reminder": {
+        "es": "El TFN es gratis. Solicítalo solo en el sitio oficial del ATO y desconfía de quien te cobre por tramitarlo.",
+        "en": "The TFN is free. Apply only through the official ATO website and be wary of anyone who charges you for it.",
+        "pt": "O TFN é gratuito. Solicite apenas no site oficial do ATO e desconfie de quem cobrar para tramitá-lo."
+      }
+    },
+    {
+      "title": {
+        "es": "Semana 3: Transporte e impuestos",
+        "en": "Week 3: Transport and taxes",
+        "pt": "Semana 3: Transporte e impostos"
+      },
+      "intro": {
+        "es": "Organiza cómo te mueves y entiende lo básico de impuestos y superannuation.",
+        "en": "Sort out how you get around and understand the basics of tax and superannuation.",
+        "pt": "Organize seus deslocamentos e entenda o básico de impostos e superannuation."
+      },
+      "tasks": {
+        "es": [
+          "Sacar la tarjeta de transporte de tu ciudad (Opal, Myki, Go Card, etc.) y cargarla",
+          "Descargar la app de transporte y Google Maps",
+          "Dar tu TFN a tu empleador para que no te retenga el máximo de impuesto",
+          "Preguntar a qué fondo de superannuation te depositan y guardar el nombre",
+          "Anotar que el año fiscal termina el 30 de junio"
+        ],
+        "en": [
+          "Get your city's transport card (Opal, Myki, Go Card, etc.) and top it up",
+          "Download the local transport app and Google Maps",
+          "Give your TFN to your employer so you aren't taxed at the highest rate",
+          "Ask which superannuation fund your employer pays into and note its name",
+          "Note that the tax year ends on 30 June"
+        ],
+        "pt": [
+          "Pegar o cartão de transporte da sua cidade (Opal, Myki, Go Card, etc.) e recarregá-lo",
+          "Baixar o app de transporte local e o Google Maps",
+          "Entregar seu TFN ao empregador para não ser tributado na alíquota máxima",
+          "Perguntar em qual fundo de superannuation o empregador deposita e anotar o nome",
+          "Anotar que o ano fiscal termina em 30 de junho"
+        ]
+      },
+      "reminder": {
+        "es": "Si no das tu TFN, tu empleador debe retener impuesto a la tasa más alta. Entregarlo a tiempo evita sorpresas.",
+        "en": "If you don't give your TFN, your employer must withhold tax at the highest rate. Providing it on time avoids surprises.",
+        "pt": "Se você não informar seu TFN, o empregador deve reter imposto na alíquota mais alta. Entregá-lo a tempo evita surpresas."
+      }
+    },
+    {
+      "title": {
+        "es": "Semana 4: Vivienda y servicios",
+        "en": "Week 4: Housing and utilities",
+        "pt": "Semana 4: Moradia e serviços"
+      },
+      "intro": {
+        "es": "Busca tu alojamiento más estable y conoce tus derechos como inquilino.",
+        "en": "Find more stable accommodation and learn your rights as a tenant.",
+        "pt": "Procure uma moradia mais estável e conheça seus direitos como inquilino."
+      },
+      "tasks": {
+        "es": [
+          "Buscar en Domain, Realestate.com.au o Flatmates.com.au",
+          "Ir a inspecciones antes de pagar cualquier cosa",
+          "Pedir siempre contrato y recibo por escrito de lo que pagues",
+          "Hacer fotos del estado de la propiedad al entrar",
+          "Consultar sobre servicios: electricidad, gas e internet"
+        ],
+        "en": [
+          "Search on Domain, Realestate.com.au or Flatmates.com.au",
+          "Attend inspections before paying anything",
+          "Always get a written agreement and a receipt for anything you pay",
+          "Take photos of the property's condition when you move in",
+          "Ask about utilities: electricity, gas and internet"
+        ],
+        "pt": [
+          "Procurar no Domain, Realestate.com.au ou Flatmates.com.au",
+          "Ir às inspeções antes de pagar qualquer coisa",
+          "Sempre exigir contrato e recibo por escrito de tudo que pagar",
+          "Tirar fotos do estado do imóvel ao entrar",
+          "Perguntar sobre serviços: eletricidade, gás e internet"
+        ]
+      },
+      "reminder": {
+        "es": "Nunca transfieras dinero por una propiedad que no hayas visto en persona. Es una estafa común contra recién llegados.",
+        "en": "Never transfer money for a property you haven't seen in person. It's a common scam against new arrivals.",
+        "pt": "Nunca transfira dinheiro por um imóvel que você não viu pessoalmente. É um golpe comum contra recém-chegados."
+      }
+    },
+    {
+      "title": {
+        "es": "Semana 5: Comunidad y red de apoyo",
+        "en": "Week 5: Community and support network",
+        "pt": "Semana 5: Comunidade e rede de apoio"
+      },
+      "intro": {
+        "es": "Construye tu red: gente de tu comunidad y gente local.",
+        "en": "Build your network: people from your community and locals.",
+        "pt": "Construa sua rede: pessoas da sua comunidade e locais."
+      },
+      "tasks": {
+        "es": [
+          "Unirte a grupos de tu comunidad en tu ciudad",
+          "Buscar eventos en Meetup o en bibliotecas y centros comunitarios",
+          "Crear o actualizar tu perfil de LinkedIn",
+          "Explorar tu barrio: biblioteca, parques y centros de salud",
+          "Quedar con al menos una persona nueva esta semana"
+        ],
+        "en": [
+          "Join community groups in your city",
+          "Look for events on Meetup or at libraries and community centres",
+          "Create or update your LinkedIn profile",
+          "Explore your neighbourhood: library, parks and health centres",
+          "Meet at least one new person this week"
+        ],
+        "pt": [
+          "Entrar em grupos da sua comunidade na sua cidade",
+          "Procurar eventos no Meetup ou em bibliotecas e centros comunitários",
+          "Criar ou atualizar seu perfil no LinkedIn",
+          "Explorar seu bairro: biblioteca, parques e centros de saúde",
+          "Encontrar pelo menos uma pessoa nova esta semana"
+        ]
+      },
+      "reminder": {
+        "es": "Los grupos ayudan mucho, pero verifica antes de enviar dinero o documentos a alguien que conociste en línea.",
+        "en": "Groups help a lot, but verify before sending money or documents to someone you met online.",
+        "pt": "Os grupos ajudam muito, mas verifique antes de enviar dinheiro ou documentos a alguém que você conheceu online."
+      }
+    },
+    {
+      "title": {
+        "es": "Semana 6: Dinero y presupuesto",
+        "en": "Week 6: Money and budgeting",
+        "pt": "Semana 6: Dinheiro e orçamento"
+      },
+      "intro": {
+        "es": "Ordena tus ingresos y gastos para los próximos meses.",
+        "en": "Organise your income and expenses for the coming months.",
+        "pt": "Organize sua renda e despesas para os próximos meses."
+      },
+      "tasks": {
+        "es": [
+          "Anotar tus ingresos semanales o quincenales",
+          "Listar gastos fijos: alquiler, servicios, transporte y celular",
+          "Definir un monto de ahorro para emergencias, aunque sea pequeño",
+          "Guardar recibos y registros de pago, incluso de trabajos informales",
+          "Revisar que tu empleador te esté pagando según tu contrato"
+        ],
+        "en": [
+          "Write down your weekly or fortnightly income",
+          "List fixed costs: rent, utilities, transport and phone",
+          "Set an emergency savings amount, even a small one",
+          "Keep receipts and payment records, even for informal work",
+          "Check that your employer is paying you according to your contract"
+        ],
+        "pt": [
+          "Anotar sua renda semanal ou quinzenal",
+          "Listar gastos fixos: aluguel, serviços, transporte e celular",
+          "Definir um valor de reserva para emergências, mesmo que pequeno",
+          "Guardar recibos e registros de pagamento, mesmo de trabalhos informais",
+          "Conferir se o empregador está pagando conforme o seu contrato"
+        ]
+      },
+      "reminder": {
+        "es": "Si te pagan en efectivo, guarda tu propio registro de horas y pagos. Te servirá para tu declaración de impuestos y para reclamar si algo sale mal.",
+        "en": "If you're paid in cash, keep your own record of hours and payments. It helps with your tax return and with any dispute.",
+        "pt": "Se você recebe em dinheiro, guarde seu próprio registro de horas e pagamentos. Ajuda na declaração de impostos e em caso de disputa."
+      }
+    },
+    {
+      "title": {
+        "es": "Semana 7: Salud y bienestar",
+        "en": "Week 7: Health and wellbeing",
+        "pt": "Semana 7: Saúde e bem-estar"
+      },
+      "intro": {
+        "es": "Cuida tu cuerpo y tu mente.",
+        "en": "Look after your body and mind.",
+        "pt": "Cuide do seu corpo e da sua mente."
+      },
+      "tasks": {
+        "es": [
+          "Averiguar si tu visa te da acceso a Medicare o si necesitas un seguro de salud",
+          "Elegir un médico general (GP) cerca de tu casa",
+          "Guardar los números de emergencia: 000 y Lifeline 13 11 14",
+          "Retomar una rutina de sueño, comida y movimiento",
+          "Hablar con tu familia o amigos de siempre"
+        ],
+        "en": [
+          "Check whether your visa gives you access to Medicare or if you need health insurance",
+          "Choose a GP (general practitioner) near home",
+          "Save emergency numbers: 000 and Lifeline 13 11 14",
+          "Get back to a routine of sleep, food and movement",
+          "Talk with your family or longtime friends"
+        ],
+        "pt": [
+          "Verificar se o seu visto dá acesso ao Medicare ou se você precisa de plano de saúde",
+          "Escolher um clínico geral (GP) perto de casa",
+          "Salvar os números de emergência: 000 e Lifeline 13 11 14",
+          "Retomar uma rotina de sono, alimentação e movimento",
+          "Conversar com sua família ou amigos de sempre"
+        ]
+      },
+      "reminder": {
+        "es": "Sentirse solo o agotado en los primeros meses es común. Pedir ayuda a tiempo es una buena decisión.",
+        "en": "Feeling lonely or worn out in the first months is common. Asking for help early is a good decision.",
+        "pt": "Sentir-se sozinho ou esgotado nos primeiros meses é comum. Pedir ajuda cedo é uma boa decisão."
+      }
+    },
+    {
+      "title": {
+        "es": "Semana 8: Balance y próximos pasos",
+        "en": "Week 8: Review and next steps",
+        "pt": "Semana 8: Balanço e próximos passos"
+      },
+      "intro": {
+        "es": "Mira lo que lograste y planifica los próximos meses.",
+        "en": "Look at what you've achieved and plan the next few months.",
+        "pt": "Veja o que você conquistou e planeje os próximos meses."
+      },
+      "tasks": {
+        "es": [
+          "Repasar qué salió bien y qué sigue pendiente",
+          "Revisar las condiciones y la fecha de vencimiento de tu visa",
+          "Si necesitas asesoría migratoria, consultar solo con un agente registrado (OMARA)",
+          "Hacer un plan a 3-6 meses: trabajo, estudio y ahorro",
+          "Celebrar lo que ya lograste"
+        ],
+        "en": [
+          "Review what went well and what is still pending",
+          "Check your visa conditions and expiry date",
+          "If you need migration advice, use only a registered agent (OMARA)",
+          "Make a 3-6 month plan: work, study and savings",
+          "Celebrate what you've already achieved"
+        ],
+        "pt": [
+          "Revisar o que deu certo e o que ainda está pendente",
+          "Conferir as condições e a data de validade do seu visto",
+          "Se precisar de assessoria migratória, consultar apenas um agente registrado (OMARA)",
+          "Fazer um plano de 3 a 6 meses: trabalho, estudo e poupança",
+          "Comemorar o que você já conquistou"
+        ]
+      },
+      "reminder": {
+        "es": "Mucha gente pasó por lo mismo antes que tú. Un paso a la vez es suficiente.",
+        "en": "Plenty of people have been through the same before you. One step at a time is enough.",
+        "pt": "Muita gente passou pelo mesmo antes de você. Um passo de cada vez é suficiente."
+      }
+    }
+  ]
+}
