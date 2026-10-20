@@ -1,0 +1,2596 @@
+{
+ "meta": {
+  "lang": "es",
+  "langName": "Español",
+  "version": "2.1.0",
+  "updated": "2026-10",
+  "decimal": ",",
+  "thousands": ".",
+  "months": [
+   "enero",
+   "febrero",
+   "marzo",
+   "abril",
+   "mayo",
+   "junio",
+   "julio",
+   "agosto",
+   "septiembre",
+   "octubre",
+   "noviembre",
+   "diciembre"
+  ]
+ },
+ "ui": {
+  "app.skip": "Saltar al contenido",
+  "app.tagline": "Tus primeras semanas en Australia",
+  "btn.help": "Ayuda",
+  "btn.profile": "Mi perfil",
+  "nav.label": "Secciones de Justo",
+  "nav.plan": "Plan",
+  "nav.work": "Trabajo",
+  "nav.money": "Dinero",
+  "nav.res": "Recursos",
+  "meter.label": "Progreso total",
+  "meter.text": "{done} de {total} tareas hechas",
+  "storage.banner": "Tu navegador no permite guardar datos (por ejemplo, en modo privado). Verás tu progreso mientras no cierres esta pestaña.",
+  "foot.privacy": "Justo no tiene cuentas ni servidores. Lo que escribes se guarda solo en este dispositivo y no se envía a nadie.",
+  "foot.disclaimer": "Información general: no es asesoría legal, migratoria ni financiera. Confirma siempre en las fuentes oficiales.",
+  "foot.feedback": "Enviar comentarios (son privados)",
+  "foot.updated": "Contenido revisado en octubre de 2026.",
+  "doc.title.plan": "Justo: tu plan",
+  "doc.title.trabajo": "Justo: trabajo",
+  "doc.title.dinero": "Justo: dinero",
+  "doc.title.recursos": "Justo: recursos",
+  "a11y.marked": "Tarea marcada como hecha.",
+  "a11y.newtab": "(se abre en otra pestaña)",
+  "callout.urgent": "Con poco dinero:",
+  "callout.warn": "Ojo:",
+  "modal.close": "Cerrar",
+  "tag.key": "Clave",
+  "tok.city": "tu ciudad",
+  "tok.state": "tu estado",
+  "tok.transport": "tu tarjeta de transporte",
+  "unit.week": "semana",
+  "unit.weeks": "semanas",
+  "copy.aria": "Copiar la frase: {text}",
+  "copy.btn": "Copiar",
+  "copy.done": "Copiado",
+  "copy.fail": "No se pudo copiar",
+  "city.label": "Ciudad de llegada",
+  "city.unknown": "Aún no lo sé u otra ciudad",
+  "city.pick": "Elige tu ciudad para ver los enlaces de tu estado.",
+  "city.pick.btn": "Elegir ciudad",
+  "city.planner": "Planificador de rutas de {place}",
+  "city.tenancy": "Reglas de alquiler en {place}",
+  "city.rsa": "Curso RSA en {place}",
+  "date.label": "Fecha de llegada a Australia",
+  "date.help": "Si ya estás en Australia, pon el día que llegaste. Puedes dejarlo vacío.",
+  "hero.title": "Tu colchón",
+  "hero.empty.lead": "¿Con cuánto dinero llegas?",
+  "hero.empty.msg": "Calcula cuántas semanas puedes cubrir renta, comida y transporte. Justo usa ese número para ordenar tu lista.",
+  "hero.empty.cta": "Calcular mi colchón",
+  "hero.nospend.lead": "Falta un dato",
+  "hero.nospend.msg": "Agrega cuánto gastas por semana en renta, comida y transporte para ver cuántas semanas te alcanzan.",
+  "hero.nospend.cta": "Agregar mis gastos",
+  "hero.days": "Unos {days} días con tus gastos actuales.",
+  "hero.until": "Con estos números, tu dinero alcanza más o menos hasta el {date}.",
+  "hero.math": "({money} − {upfront} de pagos únicos) ÷ {weekly} por semana",
+  "ribbon.empty": "Tu colchón aún no está calculado",
+  "ribbon.label": "Tu colchón: {weeks} semanas",
+  "zone.urgent": "Urgente",
+  "zone.tight": "Ajustado",
+  "zone.ok": "Holgado",
+  "tier.urgent": "Urgente",
+  "tier.tight": "Ajustado",
+  "tier.comfortable": "Holgado",
+  "plan.title": "Tu plan",
+  "plan.lead": "Lo importante primero. Las fases son una guía, no un calendario rígido: avanza a tu ritmo.",
+  "next.title": "Lo siguiente",
+  "next.mark": "Marcar como hecho",
+  "next.details": "Ver cómo",
+  "next.finished": "Terminaste lo pendiente de «{phase}».",
+  "next.none": "No hay tareas pendientes con tu perfil actual.",
+  "next.open": "Abrir {phase}",
+  "stage.title": "¿En qué etapa estás?",
+  "stage.lead": "Todavía no pones tu fecha de llegada. Elige en qué etapa estás y te mostramos lo que toca.",
+  "stage.date": "Prefiero poner mi fecha de llegada",
+  "phase.here": "Estás aquí",
+  "phase.count": "{done} de {total}",
+  "later.title": "Cuando consigas trabajo ({n})",
+  "later.note": "Estas tareas pasan al plan cuando marques que ya tienes trabajo. Puedes adelantarlas si quieres.",
+  "work.title": "Trabajo",
+  "work.lead": "Tu plan para conseguir trabajo lo antes posible.",
+  "work.hasjob": "Ya tengo trabajo",
+  "work.hasjob.help": "Actívalo cuando consigas empleo: Justo oculta la búsqueda y muestra las tareas de tu primer trabajo.",
+  "work.q1": "¿Qué tipo de trabajo puedes empezar ya?",
+  "work.q1.help": "Elige los que quieras. Conviene enfocarte en dos o tres.",
+  "work.q2": "¿Cómo está tu inglés?",
+  "work.q3": "¿Cuándo puedes trabajar?",
+  "work.q4": "¿Tienes licencia de conducir?",
+  "work.q5": "¿Buscas algo en particular? (opcional)",
+  "work.q5.help": "Escribe el cargo en inglés si lo sabes.",
+  "work.q5.ph": "Ej.: barista, electrician, warehouse",
+  "work.submit": "Armar mi plan de trabajo",
+  "work.cancel": "Volver a mi plan",
+  "work.err.sector": "Elige al menos un tipo de trabajo o escribe una palabra clave.",
+  "work.ready": "Tu plan de trabajo está listo.",
+  "work.summary": "Armamos tu plan con estas respuestas:",
+  "work.edit": "Cambiar mis respuestas",
+  "work.before": "Antes de postular",
+  "work.search": "Busca ahora",
+  "work.nocity": "Elige tu ciudad para que los links de búsqueda salgan filtrados por tu zona.",
+  "work.yourword": "Tu palabra clave",
+  "work.more": "Más portales y ayuda para postular",
+  "work.agencies": "Agencias de empleo temporal cerca de ti (mapa)",
+  "work.alerts": "Activa alertas de empleo en cada portal con tus palabras clave para recibir las ofertas nuevas en tu correo.",
+  "work.searchon": "Buscar {kw} en {site} (se abre en otra pestaña)",
+  "work.tips": "Consejos por tipo de trabajo",
+  "work.certs": "Certificados",
+  "work.advice": "Cómo ajustar tu búsqueda",
+  "work.advice.english": "Tu inglés",
+  "work.advice.avail": "Tu disponibilidad",
+  "work.advice.licence": "Tu licencia",
+  "work.week": "Tu primera semana de búsqueda",
+  "work.visa": "Tu visa y el trabajo",
+  "work.rights": "Tus derechos y las estafas",
+  "money.title": "Dinero",
+  "money.lead": "Cuántas semanas puedes vivir con lo que tienes. Todos los montos son en dólares australianos (AUD).",
+  "money.have": "Lo que tienes",
+  "money.spend": "Lo que gastas por semana",
+  "money.earn": "Si ya trabajas",
+  "money.f.money": "Dinero disponible",
+  "money.f.money.help": "Efectivo y saldo que puedes usar. No cuentes lo que aún no tienes.",
+  "money.f.upfront": "Pagos únicos al llegar",
+  "money.f.upfront.help": "Depósito (bond), renta adelantada, SIM y tarjeta de transporte. El bond suele equivaler a varias semanas de renta: pregunta cuánto es antes de decidir.",
+  "money.f.rent": "Renta por semana",
+  "money.f.rent.help": "Si aún no tienes alojamiento, pon el precio de la opción que estás mirando.",
+  "money.f.food": "Comida por semana",
+  "money.f.transport": "Transporte por semana",
+  "money.f.other": "Otros gastos por semana",
+  "money.f.other.help": "Teléfono, ropa, salidas, suscripciones.",
+  "money.f.income": "Ingreso por semana, después de impuestos",
+  "money.f.income.help": "Lo que realmente te llega a la cuenta.",
+  "money.whatif": "Si gastas $20 menos por semana, tu colchón sube de {from} a {to} semanas.",
+  "money.income.save": "Con tu ingreso te sobran {amount} por semana. Guárdalos: tu colchón crece.",
+  "money.income.gap": "Tus gastos superan tu ingreso en {amount} por semana: tu colchón sigue bajando.",
+  "money.notips": "Completa tu dinero y tus gastos para ver recomendaciones a tu medida.",
+  "money.tools": "Herramientas para armar tu presupuesto",
+  "money.disclaimer": "Estos números son tus estimados, no una promesa. Actualízalos cuando conozcas tus gastos reales.",
+  "res.title": "Recursos",
+  "res.lead": "Enlaces, glosario, frases y mensajes para tus primeros meses.",
+  "sub.links": "Enlaces",
+  "sub.gloss": "Glosario",
+  "sub.phrases": "Frases en inglés",
+  "sub.tmpl": "Mensajes",
+  "res.intro": "Los sitios de gobierno son la fuente oficial. Los comerciales son opciones: compara y verifica antes de pagar.",
+  "res.search": "Buscar enlaces",
+  "res.search.ph": "Buscar (ej.: TFN, alquiler, Medicare)",
+  "res.cats": "Categorías",
+  "res.all": "Todo",
+  "res.empty": "No encontramos enlaces con ese texto.",
+  "res.clear": "Limpiar búsqueda",
+  "res.city.transport": "Tarjeta y tarifas del transporte público en {city}.",
+  "res.city.planner": "Rutas y horarios de transporte público en {city}.",
+  "res.city.tenancy": "Derechos y deberes al alquilar en {state}.",
+  "res.city.rsa": "Curso de servicio responsable de alcohol en {state}.",
+  "kind.gov": "Gobierno",
+  "kind.ngo": "Sin fines de lucro",
+  "kind.com": "Comercial",
+  "gloss.intro": "Palabras que vas a oír y leer en Australia, con su significado en simple.",
+  "gloss.search": "Buscar en el glosario",
+  "gloss.search.ph": "Buscar un término (ej.: bond)",
+  "gloss.empty": "No hay términos con ese texto.",
+  "phr.intro": "Frases para tus primeros días. Toca Copiar para pegarlas en un mensaje, o léelas en voz alta.",
+  "tmpl.intro": "Mensajes listos para adaptar y copiar. Cambia lo que esté entre [corchetes] antes de enviarlos.",
+  "tmpl.name": "Tu nombre (opcional, no se guarda)",
+  "tmpl.name.ph": "Cómo te presentas",
+  "tmpl.translation": "Ver traducción al español",
+  "onb.title": "Bienvenido a Justo",
+  "onb.step": "Paso {n} de 3",
+  "onb.intro": "Justo es una guía con lista de pasos para tus primeras semanas en Australia. Cuéntanos tres cosas y la ordenamos para ti.",
+  "onb.visa": "¿Con qué visa vienes?",
+  "onb.err.visa": "Elige una opción para continuar.",
+  "onb.where": "¿A dónde llegas y cuándo?",
+  "onb.money": "¿Con cuánto dinero llegas?",
+  "onb.money.help": "Todo en dólares australianos (AUD). Pon tu mejor estimado y deja en blanco lo que no sepas.",
+  "onb.privacy": "Todo esto se guarda solo en este dispositivo. Justo no tiene cuentas ni servidores.",
+  "onb.back": "Atrás",
+  "onb.next": "Siguiente",
+  "onb.start": "Empezar",
+  "prof.title": "Mi perfil",
+  "prof.visa": "Tu visa",
+  "prof.visa.pick": "Elige una opción",
+  "prof.save": "Guardar",
+  "prof.cancel": "Cancelar",
+  "prof.data": "Tus datos",
+  "prof.data.text": "Tu progreso, tus respuestas y tus montos se guardan solo en este dispositivo. Puedes borrarlos cuando quieras.",
+  "prof.wipe": "Borrar todos mis datos",
+  "prof.wipe.title": "¿Borrar todo?",
+  "prof.wipe.text": "Se borrarán tu progreso, tu plan de trabajo y tus montos de este dispositivo. No se puede deshacer.",
+  "prof.wipe.yes": "Sí, borrar todo",
+  "prof.wipe.no": "No, volver",
+  "help.title": "Ayuda y teléfonos",
+  "help.lead": "Toca un número para llamar. En una emergencia, no esperes: llama al 000.",
+  "help.call": "Llamar a {name}: {number}",
+  "feedback.title": "Tu opinión nos ayuda",
+  "feedback.short": "Cuéntanos qué te sirvió y qué faltó. No se publica.",
+  "feedback.btn": "Enviar comentarios",
+  "feedback.text": "Tu opinión llega al equipo de Justo y no se publica en ningún sitio. Cuéntanos qué te sirvió, qué falta o qué no se entiende.",
+  "feedback.warn": "No incluyas tu pasaporte, tu TFN, números de cuenta ni datos que no quieras compartir.",
+  "feedback.open": "Abrir el formulario",
+  "feedback.mail": "Escribir un correo",
+  "feedback.subject": "Comentarios sobre Justo",
+  "feedback.off": "Los comentarios aún no están activados.",
+  "app.title": "Justo: tus primeras semanas en Australia",
+  "app.description": "Guía y lista de pasos para migrantes que llegan a Australia: alojamiento, dinero, trabajo y trámites, en el orden que importa. Gratis. Tu progreso se guarda solo en tu dispositivo.",
+  "lang.label": "Idioma",
+  "lang.hint": "Cambia el idioma de toda la guía.",
+  "lang.set": "Idioma cambiado: {name}.",
+  "lang.error": "No se pudo cambiar el idioma. Revisa tu conexión e inténtalo de nuevo.",
+  "fmt.day": "{d} de {m}",
+  "ph.name": "[tu nombre]",
+  "ph.city": "[ciudad]",
+  "ph.date": "[fecha]",
+  "ph.visa": "[tu visa]"
+ },
+ "visas": [
+  {
+   "id": "student",
+   "label": "Estudiante",
+   "hint": "Visa de estudiante (subclase 500).",
+   "asLocal": "estudiante",
+   "asEn": "student visa"
+  },
+  {
+   "id": "whv",
+   "label": "Working Holiday",
+   "hint": "Visa 417 o 462: vacaciones con permiso de trabajo.",
+   "asLocal": "Working Holiday",
+   "asEn": "Working Holiday visa"
+  },
+  {
+   "id": "work",
+   "label": "Trabajo o residencia",
+   "hint": "Visa de trabajo con empleador, o residencia.",
+   "asLocal": "trabajo",
+   "asEn": "work visa"
+  },
+  {
+   "id": "other",
+   "label": "Otra o aún no lo sé",
+   "hint": "Verás los pasos generales. Puedes cambiarlo después."
+  }
+ ],
+ "cities": [
+  {
+   "id": "sydney",
+   "name": "Sydney",
+   "state": "NSW",
+   "stateName": "Nueva Gales del Sur",
+   "transport": "Opal",
+   "transportNote": "En Sydney también puedes pagar tocando tu tarjeta bancaria sin contacto o tu móvil, no solo con una tarjeta Opal.",
+   "links": {
+    "transport": [
+     {
+      "label": "Opal: tarjeta y formas de pago",
+      "url": "https://transportnsw.info/tickets-opal/opal"
+     }
+    ],
+    "planner": "https://transportnsw.info",
+    "tenancy": "https://www.nsw.gov.au/housing-and-construction/renting-a-place-to-live",
+    "rsa": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/rsa"
+   }
+  },
+  {
+   "id": "melbourne",
+   "name": "Melbourne",
+   "state": "VIC",
+   "stateName": "Victoria",
+   "transport": "myki",
+   "links": {
+    "transport": [
+     {
+      "label": "myki: tarjeta y tarifas",
+      "url": "https://transport.vic.gov.au/tickets-and-payments/myki"
+     }
+    ],
+    "planner": "https://www.ptv.vic.gov.au/journey",
+    "tenancy": "https://www.consumer.vic.gov.au/housing/renting",
+    "rsa": "https://www.vic.gov.au/rsa-training"
+   }
+  },
+  {
+   "id": "brisbane",
+   "name": "Brisbane",
+   "state": "QLD",
+   "stateName": "Queensland",
+   "transport": "go card",
+   "links": {
+    "transport": [
+     {
+      "label": "go card: tarjeta y tarifas",
+      "url": "https://translink.com.au/tickets-and-fares/go-card"
+     }
+    ],
+    "planner": "https://translink.com.au",
+    "tenancy": "https://www.rta.qld.gov.au/",
+    "rsa": "https://www.business.qld.gov.au/industries/hospitality-tourism-sport/liquor-gaming/liquor/training/rsa"
+   }
+  },
+  {
+   "id": "perth",
+   "name": "Perth",
+   "state": "WA",
+   "stateName": "Australia Occidental",
+   "transport": "SmartRider",
+   "links": {
+    "transport": [
+     {
+      "label": "SmartRider: tarjeta y tarifas",
+      "url": "https://www.transperth.wa.gov.au/SmartRider"
+     }
+    ],
+    "planner": "https://www.transperth.wa.gov.au",
+    "tenancy": "https://www.consumerprotection.wa.gov.au/renting-home",
+    "rsa": "https://www.wa.gov.au/organisation/racing-gaming-and-liquor/liquor-management-and-training"
+   }
+  },
+  {
+   "id": "adelaide",
+   "name": "Adelaide",
+   "state": "SA",
+   "stateName": "Australia Meridional",
+   "transport": "MetroCard",
+   "transportNote": "Adelaide Metro ofrece pago con tarjeta sin contacto (tap-and-pay): puede que no necesites comprar una tarjeta al llegar. Confirma en su sitio qué servicios lo aceptan.",
+   "links": {
+    "transport": [
+     {
+      "label": "MetroCard: tarjeta y tarifas",
+      "url": "https://www.adelaidemetro.com.au/tickets-and-fares/metrocard"
+     },
+     {
+      "label": "Pago con tarjeta sin contacto (tap-and-pay)",
+      "url": "https://www.adelaidemetro.com.au/fares-and-passes/tap-and-pay"
+     }
+    ],
+    "planner": "https://www.adelaidemetro.com.au",
+    "tenancy": "https://www.sa.gov.au/topics/housing/renting-and-letting/renting-privately"
+   },
+   "rsaNote": "En Adelaide el curso RSA lo dan proveedores registrados: busca uno que ofrezca la unidad de competencia de servicio responsable de alcohol y confirma que esté registrado antes de pagar."
+  }
+ ],
+ "tiers": {
+  "urgent": {
+   "label": "Urgente",
+   "msg": "Tu prioridad es un techo barato que puedas verificar y tu primer ingreso. Justo reordenó tu lista para eso.",
+   "title": "Si tu dinero dura menos de 4 semanas",
+   "tips": [
+    "**Alojamiento:** elige lo más barato que puedas verificar. Un dormitorio compartido o una habitación en una casa compartida suele costar menos que un estudio. No transfieras dinero sin ver el lugar o sin un contrato.",
+    "**Comida:** cocina tú. Compara el precio por kilo o por litro en la etiqueta y compra lo básico: arroz, pasta, huevos, legumbres, frutas y verduras de temporada.",
+    "**Transporte:** camina o usa bicicleta cuando puedas. Muchos sistemas tienen un tope diario o semanal de tarifa: revisa el de tu ciudad.",
+    "**Trabajo:** tu primer trabajo no tiene que ser el ideal, tiene que pagar la renta. Postula a puestos de entrada (cocina, limpieza, almacén, reparto, tiendas) mientras buscas algo mejor.",
+    "**Revisa tus números cada semana.** Si tu colchón se acorta, busca ayuda local antes de quedarte sin nada."
+   ]
+  },
+  "tight": {
+   "label": "Ajustado",
+   "msg": "Te alcanza para unas semanas, pero no para equivocarte. Compara opciones antes de pagar y empieza a buscar trabajo desde el primer día.",
+   "title": "Si tu dinero dura entre 4 y 8 semanas",
+   "tips": [
+    "**Compara al menos tres opciones de alojamiento** antes de pagar el depósito (bond).",
+    "**Reserva primero el dinero del bond y de la renta adelantada.** Gástalo en extras solo después.",
+    "**Fija un tope semanal para comida y transporte** y revisa cuánto gastaste cada domingo.",
+    "**Busca trabajo desde el primer día:** cada semana que consigues empezar antes, tu colchón vuelve a subir."
+   ]
+  },
+  "comfortable": {
+   "label": "Holgado",
+   "msg": "Tienes margen para elegir con calma. Úsalo para evitar decisiones apuradas, no para postergar la búsqueda de trabajo.",
+   "title": "Si tu dinero dura más de 8 semanas",
+   "tips": [
+    "**Elige con calma, pero no pospongas la búsqueda de trabajo:** las mejores ofertas toman tiempo.",
+    "**Separa un fondo de emergencia** (por ejemplo, 4 semanas de gastos) y no lo toques.",
+    "**Evita pagar de más por comodidad** los primeros días (transporte, comida fuera): el costo de vida es alto."
+   ]
+  },
+  "short": {
+   "label": "Urgente",
+   "msg": "Tus pagos únicos son mayores que tu dinero. Reduce el depósito (otra habitación u otro tipo de alojamiento) o llega con más fondos antes de comprometerte."
+  }
+ },
+ "phases": [
+  {
+   "id": "pre",
+   "title": "Antes de viajar",
+   "short": "Antes",
+   "sub": "Lo que conviene resolver antes de subir al avión: dónde dormirás, cómo te moverás, cuánto dinero tienes y qué puedes traer.",
+   "tasks": [
+    {
+     "id": "pre-accom",
+     "text": "Reserva tu alojamiento para la primera semana y guarda la dirección y el comprobante.",
+     "p": 1,
+     "pu": 1,
+     "why": "Sin dirección no puedes recibir la carta de tu TFN, abrir una cuenta ni mandar postulaciones. Reserva algo con cancelación flexible (un hostal o una habitación) y busca algo mejor cuando ya estés en la ciudad.",
+     "warn": "No pagues por un lugar que no puedas verificar: pide fotos reales, una videollamada y la reserva o el contrato por escrito.",
+     "urgent": "Elige la opción más barata que puedas verificar: un dormitorio compartido en un hostal o una habitación en una casa compartida.",
+     "key": true,
+     "links": [
+      {
+       "label": "Hostelworld",
+       "url": "https://www.hostelworld.com"
+      },
+      {
+       "label": "YHA Australia",
+       "url": "https://www.yha.com.au"
+      },
+      {
+       "label": "Flatmates: habitaciones compartidas",
+       "url": "https://flatmates.com.au"
+      },
+      {
+       "label": "Study Australia: alojamiento para estudiantes",
+       "url": "https://www.studyaustralia.gov.au/en/life-in-australia/accommodation",
+       "visas": [
+        "student"
+       ]
+      },
+      {
+       "label": "Scamwatch: alquileres falsos",
+       "url": "https://www.scamwatch.gov.au/about-us/news-and-alerts/fake-rental-properties-and-shared-accommodation-listings"
+      }
+     ]
+    },
+    {
+     "id": "pre-transport",
+     "text": "Planifica cómo llegarás del aeropuerto a tu alojamiento y cómo pagarás el transporte.",
+     "p": 2,
+     "pu": 4,
+     "why": "Mira la ruta, el costo y los horarios antes de aterrizar. Guarda capturas de pantalla del mapa, la dirección y el teléfono del lugar por si no tienes datos al llegar. Llegar cansado y sin plan es cuando más se paga de más.",
+     "whyCity": "En {city} el transporte se paga con {transport}.",
+     "cityNote": true,
+     "cityLinks": [
+      "planner",
+      "transport"
+     ]
+    },
+    {
+     "id": "pre-contact",
+     "text": "Contacta a alguien que ya esté en {city}: familia, amigos o un grupo de tu país en Facebook.",
+     "p": 3,
+     "pu": 5,
+     "why": "Una persona local te ahorra semanas de prueba y error: te dice qué barrios y transportes usar, dónde se busca trabajo y qué evitar. Escríbele antes de viajar y hazle una pregunta concreta. Si no conoces a nadie, busca grupos de migrantes de tu país en tu ciudad y pide orientación por mensaje.",
+     "warn": "Verifica a cualquiera que conozcas por internet (videollamada, referencias) antes de enviarle dinero o documentos.",
+     "action": {
+      "label": "Ver mensajes listos para copiar",
+      "to": "recursos",
+      "sub": "mensajes"
+     },
+     "links": [
+      {
+       "label": "Buscar grupos en Facebook",
+       "url": "https://www.facebook.com/groups/"
+      },
+      {
+       "label": "Meetup",
+       "url": "https://www.meetup.com"
+      }
+     ]
+    },
+    {
+     "id": "pre-budget",
+     "text": "Calcula tu colchón: cuántas semanas puedes vivir con el dinero que llevas.",
+     "p": 4,
+     "pu": 3,
+     "why": "Cada semana en Australia cuesta renta, comida y transporte. Saber tu número antes de viajar decide qué priorizar: con poco dinero, Justo pone primero un techo barato y tu primer ingreso.",
+     "action": {
+      "label": "Calcular mi colchón",
+      "to": "dinero"
+     },
+     "key": true
+    },
+    {
+     "id": "pre-customs",
+     "text": "Revisa qué puedes traer y qué debes declarar: alcohol, tabaco, comida, medicinas y efectivo.",
+     "p": 5,
+     "pu": 6,
+     "why": "Alcohol y tabaco tienen límites para entrar sin pagar impuestos. Como referencia, para adultos (18 años o más) son 2,25 litros de alcohol y 25 cigarrillos o 25 g de tabaco; confirma los límites vigentes en la web oficial. La comida, las plantas y los productos animales están muy controlados (biosecurity). Si llevas AUD 10.000 o más en efectivo, debes declararlo. Los vapes con nicotina y muchas medicinas tienen reglas propias.",
+     "warn": "Ante la duda, declara en la tarjeta de llegada (Incoming Passenger Card). No declarar algo que debías declarar puede salir caro: multas y retrasos.",
+     "links": [
+      {
+       "label": "ABF: ¿puedo traerlo?",
+       "url": "https://www.abf.gov.au/entering-and-leaving-australia/can-you-bring-it-in"
+      },
+      {
+       "label": "ABF: alcohol y tabaco",
+       "url": "https://www.abf.gov.au/entering-and-leaving-australia/can-you-bring-it-in/categories/duty-free"
+      },
+      {
+       "label": "ABF: comida",
+       "url": "https://www.abf.gov.au/entering-and-leaving-australia/can-you-bring-it-in/categories/food"
+      },
+      {
+       "label": "Biosecurity: viajar a Australia",
+       "url": "https://www.agriculture.gov.au/biosecurity-trade/travelling/to-australia"
+      },
+      {
+       "label": "AUSTRAC: declarar efectivo",
+       "url": "https://www.austrac.gov.au/travellers/declare-your-cash-you-travel"
+      },
+      {
+       "label": "TGA: medicinas al viajar",
+       "url": "https://www.tga.gov.au/resources/consumer-information-and-resources/travelling-medicines-and-medical-devices/entering-australia"
+      },
+      {
+       "label": "TGA: vapes",
+       "url": "https://www.tga.gov.au/products/unapproved-therapeutic-goods/therapeutic-vaping-goods/vaping-hub/vapes-information-individuals-and-patients"
+      }
+     ],
+     "key": true
+    },
+    {
+     "id": "pre-money",
+     "text": "Lleva una tarjeta internacional y algo de efectivo en AUD para tus primeros días.",
+     "p": 6,
+     "pu": 7,
+     "why": "Necesitas pagar transporte, SIM y comida antes de tener una cuenta australiana. Algunos bancos permiten empezar la apertura de cuenta antes de llegar: revisa sus guías para recién llegados. Para enviar dinero desde tu país, compara comisiones y tipo de cambio.",
+     "warn": "No lleves grandes cantidades de efectivo: desde AUD 10.000 (o su equivalente) debes declararlo.",
+     "links": [
+      {
+       "label": "CommBank: nuevo en Australia",
+       "url": "https://www.commbank.com.au/moving-to-australia.html"
+      },
+      {
+       "label": "Westpac: nuevo en Australia",
+       "url": "https://www.westpac.com.au/international-travel/new-to-australia/"
+      },
+      {
+       "label": "Westpac: estudiantes internacionales",
+       "url": "https://www.westpac.com.au/international-travel/new-to-australia/international-student/",
+       "visas": [
+        "student"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "pre-cv",
+     "text": "Prepara tu CV al estilo australiano, en inglés (1 o 2 páginas).",
+     "p": 7,
+     "pu": 2,
+     "why": "Es lo que más rápido te acerca a un ingreso: si llegas con el CV listo, postulas desde el día 1. En Australia el CV normalmente no lleva foto, edad ni estado civil; sí lleva experiencia, habilidades, disponibilidad y referencias.",
+     "action": {
+      "label": "Armar mi plan de trabajo",
+      "to": "trabajo"
+     },
+     "links": [
+      {
+       "label": "Workforce Australia: cómo hacer tu CV",
+       "url": "https://www.workforceaustralia.gov.au/individuals/coaching/job-applications/resumes"
+      }
+     ],
+     "job": "search"
+    },
+    {
+     "id": "pre-visa-student",
+     "text": "Revisa las condiciones de tu visa de estudiante: trabajo, asistencia y cambio de curso.",
+     "p": 8,
+     "why": "Las condiciones de trabajo y estudio pueden cambiar. Confirma lo vigente en tu cuenta (VEVO) y en Home Affairs; no te fíes de lo que te cuenten por WhatsApp.",
+     "visas": [
+      "student"
+     ],
+     "links": [
+      {
+       "label": "VEVO: revisa tus condiciones",
+       "url": "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/check-conditions-online"
+      },
+      {
+       "label": "Home Affairs: visa de estudiante (500)",
+       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"
+      },
+      {
+       "label": "Study Australia: guía de la visa 500",
+       "url": "https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500"
+      }
+     ]
+    },
+    {
+     "id": "pre-visa-whv",
+     "text": "Entiende las condiciones de tu Working Holiday: 6 meses con el mismo empleador y qué trabajo cuenta para extender la visa.",
+     "p": 8,
+     "why": "El límite habitual es de 6 meses con el mismo empleador. Algunos trabajos (por ejemplo, ciertos trabajos agrícolas en zonas regionales) pueden contar para pedir una segunda visa. Confirma las excepciones y qué califica en Home Affairs antes de aceptar un empleo.",
+     "visas": [
+      "whv"
+     ],
+     "links": [
+      {
+       "label": "Home Affairs: Working Holiday 417",
+       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417"
+      },
+      {
+       "label": "Home Affairs: Work and Holiday 462",
+       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-462"
+      },
+      {
+       "label": "Condiciones de trabajo del programa",
+       "url": "https://immi.homeaffairs.gov.au/programs-subsite/Pages/working-holiday-maker/work-conditions.aspx"
+      },
+      {
+       "label": "Límite de 6 meses con un empleador",
+       "url": "https://immi.homeaffairs.gov.au/what-we-do/whm-program/specified-work-conditions/6-month-work-limitation"
+      }
+     ]
+    },
+    {
+     "id": "pre-visa-work",
+     "text": "Confirma las condiciones de tu visa y de tu empleador patrocinador.",
+     "p": 8,
+     "why": "Tu visa suele ligarte a un empleador y a una ocupación: confirma qué puedes hacer y qué no. Nadie legítimo puede cobrarte por patrocinarte ni pedirte que le devuelvas parte de tu salario.",
+     "visas": [
+      "work"
+     ],
+     "links": [
+      {
+       "label": "VEVO: revisa tus condiciones",
+       "url": "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/check-conditions-online"
+      },
+      {
+       "label": "Fair Work: trabajadores con visa",
+       "url": "https://www.fairwork.gov.au/find-help-for/visa-holders-migrants"
+      }
+     ]
+    },
+    {
+     "id": "pre-health-student",
+     "text": "Asegura tu seguro de salud para estudiantes (OSHC).",
+     "p": 9,
+     "why": "Tu visa lo exige durante todo el estudio. Cubre médico general, parte del hospital, ambulancia y algunos medicamentos; normalmente no cubre dentista ni óptica. Guarda tu comprobante de cobertura.",
+     "visas": [
+      "student"
+     ],
+     "links": [
+      {
+       "label": "Study Australia: OSHC",
+       "url": "https://www.studyaustralia.gov.au/en/plan-your-move/overseas-student-health-cover-oshc"
+      }
+     ]
+    },
+    {
+     "id": "pre-health-other",
+     "text": "Revisa tu cobertura de salud: Medicare solo aplica a algunos países y visas.",
+     "p": 9,
+     "why": "Medicare es para ciertos residentes y para visitantes de países con acuerdos de salud con Australia. Si no calificas, necesitas un seguro privado: sin cobertura, una visita al hospital puede costar muchísimo.",
+     "visas": [
+      "whv",
+      "work",
+      "other"
+     ],
+     "links": [
+      {
+       "label": "Services Australia: inscribirse en Medicare",
+       "url": "https://www.servicesaustralia.gov.au/enrolling-medicare"
+      },
+      {
+       "label": "Medicare para residentes temporales cubiertos por Orden Ministerial",
+       "url": "https://www.servicesaustralia.gov.au/enrolling-medicare-if-youre-temporary-resident-covered-ministerial-order"
+      }
+     ]
+    },
+    {
+     "id": "pre-docs",
+     "text": "Reúne tus documentos en una carpeta digital y otra impresa.",
+     "p": 10,
+     "why": "Los vas a pedir al abrir una cuenta, alquilar y postular: pasaporte y carta de concesión de la visa, comprobante de alojamiento y de seguro, títulos y certificados (traducidos si hace falta), referencias laborales, licencia de conducir y recetas médicas. Si eres estudiante, también tu confirmación de matrícula (CoE).",
+     "warn": "Guarda las copias digitales en un lugar privado, con contraseña. No envíes fotos de tu pasaporte a nadie que no sea una entidad oficial o un proveedor que ya verificaste."
+    },
+    {
+     "id": "pre-phone",
+     "text": "Desbloquea tu teléfono y decide cómo tendrás datos móviles al aterrizar.",
+     "p": 11,
+     "why": "Con datos móviles tienes mapas, transporte, banca y mensajes desde el primer día. Si tu teléfono sigue bloqueado por un operador de tu país, no podrá usar una SIM australiana. Puedes comprar una SIM prepagada al llegar o instalar una eSIM antes de viajar, si tu teléfono la admite.",
+     "links": [
+      {
+       "label": "Telstra",
+       "url": "https://www.telstra.com.au"
+      },
+      {
+       "label": "Optus",
+       "url": "https://www.optus.com.au"
+      },
+      {
+       "label": "Vodafone",
+       "url": "https://www.vodafone.com.au"
+      },
+      {
+       "label": "Boost",
+       "url": "https://www.boost.com.au"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "days",
+   "title": "Días 1–3",
+   "short": "Días 1–3",
+   "sub": "Lo que no puede esperar: dormir seguro, tener teléfono, moverte y empezar a buscar trabajo.",
+   "tasks": [
+    {
+     "id": "d-stay",
+     "text": "Instálate y confirma por escrito las reglas, el pago y lo que incluye tu alojamiento.",
+     "p": 1,
+     "pu": 1,
+     "why": "Pregunta cuánto es el depósito (bond) y cómo se devuelve, qué gastos incluye (luz, internet), por cuánto tiempo puedes quedarte y si hay contrato o recibo. Toma fotos de cómo está la habitación al entrar.",
+     "key": true
+    },
+    {
+     "id": "d-sim",
+     "text": "Activa una SIM prepagada (o eSIM) para tener datos y un número australiano.",
+     "p": 2,
+     "pu": 2,
+     "why": "Los empleadores te van a llamar o escribir a ese número: ponlo en tu CV. Compara el precio por mes, no solo los gigas.",
+     "links": [
+      {
+       "label": "Telstra",
+       "url": "https://www.telstra.com.au"
+      },
+      {
+       "label": "Optus",
+       "url": "https://www.optus.com.au"
+      },
+      {
+       "label": "Vodafone",
+       "url": "https://www.vodafone.com.au"
+      },
+      {
+       "label": "Boost",
+       "url": "https://www.boost.com.au"
+      }
+     ]
+    },
+    {
+     "id": "d-transport",
+     "text": "Consigue tu forma de pagar el transporte y aprende tu ruta principal.",
+     "p": 3,
+     "pu": 7,
+     "whyCity": "En {city} el transporte se paga con {transport}.",
+     "cityNote": true,
+     "cityLinks": [
+      "transport",
+      "planner"
+     ],
+     "urgent": "Camina o usa bicicleta cuando puedas. Muchos sistemas tienen un tope diario o semanal de tarifa: revisa el de tu ciudad en la página oficial."
+    },
+    {
+     "id": "d-bank",
+     "text": "Abre una cuenta bancaria australiana.",
+     "p": 4,
+     "pu": 5,
+     "why": "La necesitas para que te paguen el sueldo, pagar el depósito de alquiler y usar tu tarjeta sin comisiones. Normalmente piden pasaporte, visa y una dirección en Australia; los requisitos cambian según el banco. Compara las comisiones mensuales antes de elegir.",
+     "links": [
+      {
+       "label": "CommBank: nuevo en Australia",
+       "url": "https://www.commbank.com.au/moving-to-australia.html"
+      },
+      {
+       "label": "Westpac: nuevo en Australia",
+       "url": "https://www.westpac.com.au/international-travel/new-to-australia/"
+      }
+     ],
+     "key": true
+    },
+    {
+     "id": "d-tfn",
+     "text": "Solicita tu TFN (número de contribuyente) en la web oficial del ATO.",
+     "p": 5,
+     "pu": 3,
+     "why": "Sin TFN te pueden retener más impuesto de tu sueldo. Es gratis y se pide en línea en unos 20 minutos, estando ya en Australia. La carta con tu número llega por correo a tu dirección postal y puede tardar hasta 28 días.",
+     "warn": "Nadie legítimo te cobra por tramitarlo. Usa solo el sitio oficial del ATO.",
+     "urgent": "No esperes la carta para buscar trabajo. Solicítalo el día 1 o 2 para que la carta llegue cuanto antes.",
+     "links": [
+      {
+       "label": "ATO: solicitar tu TFN",
+       "url": "https://www.ato.gov.au/forms-and-instructions/tfn-application-for-permanent-migrants-and-temporary-visitors"
+      }
+     ],
+     "key": true
+    },
+    {
+     "id": "d-jobstart",
+     "text": "Haz tu plan de trabajo y activa alertas en Seek, Indeed y Jora.",
+     "p": 6,
+     "pu": 4,
+     "why": "Cada semana sin ingresos consume tu colchón. Empieza hoy, aunque aún no estés instalado: el cuestionario te da palabras clave, links de búsqueda y los certificados que piden en tu sector.",
+     "action": {
+      "label": "Armar mi plan de trabajo",
+      "to": "trabajo"
+     },
+     "job": "search",
+     "key": true
+    },
+    {
+     "id": "d-food",
+     "text": "Haz tu primera compra básica y ubica el supermercado más cercano.",
+     "p": 7,
+     "pu": 6,
+     "why": "Compara el precio por kilo o por litro que aparece en la etiqueta, no solo el precio del producto.",
+     "urgent": "Cocina en casa: arroz, pasta, huevos, legumbres y verduras de temporada rinden más que la comida lista. Las tiendas de segunda mano de caridad (op shops) sirven para ollas, ropa y abrigo."
+    },
+    {
+     "id": "d-safety",
+     "text": "Guarda el 000 para emergencias y comparte tu dirección con alguien de confianza.",
+     "p": 8,
+     "pu": 8,
+     "why": "En una emergencia (policía, ambulancia o bomberos) se llama al 000. Avisa a tu familia dónde estás y cómo contactarte.",
+     "action": {
+      "label": "Ver teléfonos de ayuda",
+      "to": "help"
+     }
+    }
+   ]
+  },
+  {
+   "id": "week1",
+   "title": "Semana 1",
+   "short": "Semana 1",
+   "sub": "Asegura un lugar estable y empieza a postular en serio. Cada semana sin ingresos consume tu colchón.",
+   "tasks": [
+    {
+     "id": "w1-housing",
+     "text": "Busca un alquiler estable en {city} antes de que termine tu alojamiento temporal.",
+     "p": 1,
+     "pu": 1,
+     "why": "Conoce primero las reglas de alquiler de tu estado: contrato por escrito, bond depositado en el organismo oficial (pide el comprobante) y cuánto se puede pedir por adelantado. Busca en Flatmates, Domain o realestate.com.au y en grupos locales, y ve el lugar antes de pagar. Comparar tres opciones evita decisiones apuradas.",
+     "urgent": "Con poco dinero, una habitación en una casa compartida suele ser lo más barato. Pregunta cuánto es el bond y la renta adelantada antes de ir a verla: si no te alcanza, no pierdas el tiempo.",
+     "cityLinks": [
+      "tenancy"
+     ],
+     "links": [
+      {
+       "label": "Flatmates",
+       "url": "https://flatmates.com.au"
+      },
+      {
+       "label": "Domain",
+       "url": "https://www.domain.com.au"
+      },
+      {
+       "label": "realestate.com.au",
+       "url": "https://www.realestate.com.au"
+      },
+      {
+       "label": "Gumtree (verifica bien los avisos)",
+       "url": "https://www.gumtree.com.au"
+      },
+      {
+       "label": "Scamwatch: alquileres falsos",
+       "url": "https://www.scamwatch.gov.au/about-us/news-and-alerts/fake-rental-properties-and-shared-accommodation-listings"
+      }
+     ],
+     "key": true
+    },
+    {
+     "id": "w1-apply",
+     "text": "Postula todos los días y entrega tu CV en persona en negocios cerca de ti.",
+     "p": 2,
+     "pu": 2,
+     "why": "En hostelería, tiendas y limpieza muchos empleadores contratan a quien se presenta con CV y buena actitud. Usa tu plan de trabajo para saber dónde buscar y qué decir.",
+     "action": {
+      "label": "Ver mi plan de trabajo",
+      "to": "trabajo"
+     },
+     "job": "search",
+     "key": true
+    },
+    {
+     "id": "w1-budget",
+     "text": "Anota lo que gastaste esta semana y actualiza tu colchón.",
+     "p": 3,
+     "pu": 3,
+     "why": "Los números reales casi siempre difieren de los estimados. Ajusta renta, comida y transporte para saber cuánto tiempo te queda.",
+     "action": {
+      "label": "Actualizar mis gastos",
+      "to": "dinero"
+     }
+    },
+    {
+     "id": "u-help",
+     "text": "Anota dónde pedir ayuda de emergencia (comida, alojamiento y dinero) antes de necesitarla.",
+     "p": 50,
+     "pu": 4,
+     "why": "Hay servicios gratuitos de comida y alojamiento de emergencia. Si eres estudiante, tu institución suele tener apoyo para estudiantes con dificultades. Pedir ayuda a tiempo cuesta menos que esperar a quedarte sin nada.",
+     "links": [
+      {
+       "label": "Ask Izzy: servicios gratuitos cerca de ti",
+       "url": "https://askizzy.org.au/"
+      }
+     ],
+     "only": "urgent"
+    },
+    {
+     "id": "w1-certs",
+     "text": "Saca solo los certificados que pide el trabajo que buscas (RSA, White Card u otros).",
+     "p": 4,
+     "pu": 6,
+     "why": "El RSA es para servir alcohol y la White Card para obras de construcción. Son cursos cortos con costo: hazlos cuando un empleador los pida o cuando sepas que abren trabajo en tu zona, y verifica que el proveedor esté registrado.",
+     "urgent": "Con poco dinero, no pagues certificados por si acaso: primero consigue la oferta o la confirmación de que lo necesitas.",
+     "cityLinks": [
+      "rsa"
+     ],
+     "links": [
+      {
+       "label": "Safe Work Australia: White Card",
+       "url": "https://www.safeworkaustralia.gov.au/safety-topic/industry-and-business/construction/working-construction-site"
+      }
+     ]
+    },
+    {
+     "id": "w1-rights",
+     "text": "Conoce tus derechos laborales básicos y a quién llamar si algo no está bien.",
+     "p": 5,
+     "pu": 5,
+     "why": "Todos los trabajadores en Australia, sea cual sea su visa, tienen derecho al pago mínimo, a un recibo de sueldo (payslip) y a un lugar de trabajo seguro. Fair Work Ombudsman: 13 13 94, y puedes llamar primero al 13 14 50 para pedir un intérprete gratis.",
+     "warn": "Fair Work dice que tu visa no se cancela por contactarlos o pedirles ayuda. Aun así, trabajar fuera de las condiciones de tu visa puede tener consecuencias migratorias: ante la duda, consulta con un agente migratorio registrado.",
+     "links": [
+      {
+       "label": "Fair Work: trabajadores con visa",
+       "url": "https://www.fairwork.gov.au/find-help-for/visa-holders-migrants"
+      },
+      {
+       "label": "Fair Work: calculadora de pago y condiciones",
+       "url": "https://calculate.fairwork.gov.au/"
+      },
+      {
+       "label": "Fair Work: salarios mínimos",
+       "url": "https://www.fairwork.gov.au/pay-and-wages/minimum-wages"
+      }
+     ]
+    },
+    {
+     "id": "w1-scams",
+     "text": "Aprende las señales de estafa más comunes en alquiler, trabajo y dinero.",
+     "p": 6,
+     "pu": 4,
+     "why": "Desconfía si te piden pagar antes de ver el lugar, si te ofrecen un trabajo muy bien pagado sin entrevista, si te piden transferir dinero o si te presionan para decidir ya. Verifica la oferta por otro canal. Ante la duda: detente, verifica y protégete.",
+     "links": [
+      {
+       "label": "Scamwatch: Stop. Check. Protect.",
+       "url": "https://www.scamwatch.gov.au/stop-check-protect"
+      },
+      {
+       "label": "Scamwatch: estafas de empleo",
+       "url": "https://www.scamwatch.gov.au/types-of-scams/jobs-and-employment-scams"
+      }
+     ]
+    },
+    {
+     "id": "w1-community",
+     "text": "Únete a un grupo de tu comunidad y asiste a un evento esta semana.",
+     "p": 7,
+     "pu": 7,
+     "why": "Conocer gente te da información de primera mano, ofertas de trabajo que no se publican y apoyo cuando extrañas tu casa. Busca grupos de tu país en tu ciudad, eventos de tu institución o actividades en Meetup.",
+     "links": [
+      {
+       "label": "Meetup",
+       "url": "https://www.meetup.com"
+      },
+      {
+       "label": "Eventbrite",
+       "url": "https://www.eventbrite.com.au"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "weeks24",
+   "title": "Semanas 2–4",
+   "short": "Semanas 2–4",
+   "sub": "Consolida tus ingresos y evita pagar de más.",
+   "tasks": [
+    {
+     "id": "w2-search",
+     "text": "Mantén el ritmo: postula a diario y haz seguimiento a lo que enviaste.",
+     "p": 1,
+     "pu": 1,
+     "why": "La mayoría de los empleos de entrada se consiguen con volumen y constancia. Una vez por semana, revisa qué funcionó y ajusta tu CV y tus palabras clave.",
+     "action": {
+      "label": "Ver mi plan de trabajo",
+      "to": "trabajo"
+     },
+     "job": "search",
+     "key": true
+    },
+    {
+     "id": "w2-firstjob",
+     "text": "En tu primer trabajo: entrega tu TFN, elige tu fondo de jubilación (super) y pide tu contrato.",
+     "p": 2,
+     "pu": 2,
+     "why": "Tu empleador te va a pedir el TFN y los datos de tu cuenta bancaria: entrégalos apenas los tengas para que no te retengan más impuesto. Pregunta qué fondo de super usarán o elige uno tú. Pide por escrito tus horarios y tu tarifa por hora.",
+     "links": [
+      {
+       "label": "ATO: super para residentes temporales",
+       "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/super/temporary-residents-and-superannuation/how-superannuation-applies-to-temporary-residents"
+      }
+     ],
+     "job": "employed",
+     "key": true
+    },
+    {
+     "id": "w2-records",
+     "text": "Guarda tus recibos de sueldo, tu contrato y un registro de tus horas.",
+     "p": 3,
+     "pu": 3,
+     "why": "Te sirven para tu declaración de impuestos y para reclamar si algo no cuadra. Anota tus horas cada semana, aunque tu empleador también las lleve.",
+     "job": "employed"
+    },
+    {
+     "id": "w2-hours-student",
+     "text": "Controla tus horas de trabajo según las condiciones vigentes de tu visa.",
+     "p": 4,
+     "pu": 4,
+     "why": "Superar el límite de horas de tu visa de estudiante puede poner en riesgo tu visa. Justo no cita cifras porque cambian: revisa tu límite vigente en VEVO y en Home Affairs, y llévalo semana a semana.",
+     "visas": [
+      "student"
+     ],
+     "links": [
+      {
+       "label": "VEVO: revisa tus condiciones",
+       "url": "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/check-conditions-online"
+      },
+      {
+       "label": "Study Australia: trabajar mientras estudias",
+       "url": "https://www.studyaustralia.gov.au/en/work-in-australia"
+      },
+      {
+       "label": "Fair Work: guía para estudiantes internacionales",
+       "url": "https://www.fairwork.gov.au/tools-and-resources/fact-sheets/rights-and-obligations/international-students"
+      }
+     ],
+     "job": "employed"
+    },
+    {
+     "id": "w2-hours-whv",
+     "text": "Lleva la cuenta de tus meses con cada empleador.",
+     "p": 4,
+     "pu": 4,
+     "why": "Con Working Holiday normalmente puedes trabajar hasta 6 meses con el mismo empleador. Revisa las excepciones y qué trabajo cuenta para una segunda visa antes de aceptar.",
+     "visas": [
+      "whv"
+     ],
+     "links": [
+      {
+       "label": "Condiciones de trabajo del programa",
+       "url": "https://immi.homeaffairs.gov.au/programs-subsite/Pages/working-holiday-maker/work-conditions.aspx"
+      },
+      {
+       "label": "Límite de 6 meses con un empleador",
+       "url": "https://immi.homeaffairs.gov.au/what-we-do/whm-program/specified-work-conditions/6-month-work-limitation"
+      }
+     ],
+     "job": "employed"
+    },
+    {
+     "id": "w2-housing",
+     "text": "Guarda tu contrato de alquiler, el comprobante del bond y los recibos de pago.",
+     "p": 5,
+     "pu": 5,
+     "why": "Los vas a necesitar para recuperar tu bond cuando te mudes y para demostrar tu domicilio ante el banco y otros trámites."
+    },
+    {
+     "id": "w2-budget",
+     "text": "Compara tu gasto real con tu presupuesto y recorta lo que no es esencial.",
+     "p": 6,
+     "pu": 6,
+     "why": "Revisa renta, comida, transporte y suscripciones. Un recorte pequeño y constante alarga tu colchón más de lo que parece.",
+     "action": {
+      "label": "Revisar mis gastos",
+      "to": "dinero"
+     }
+    },
+    {
+     "id": "w2-health-student",
+     "text": "Ubica un médico general (GP) y guarda los datos de tu seguro OSHC.",
+     "p": 7,
+     "pu": 7,
+     "why": "Con OSHC puedes ir a un GP que acepte tu aseguradora. Pregunta si cobran directo a tu seguro o si pagas y pides reembolso. Guarda el número de tu tarjeta y el teléfono de tu aseguradora.",
+     "visas": [
+      "student"
+     ]
+    },
+    {
+     "id": "w2-health-other",
+     "text": "Ubica una clínica y un médico general (GP), y entiende cuánto cuesta ir sin cobertura.",
+     "p": 7,
+     "pu": 7,
+     "why": "Sin Medicare, una consulta puede costar bastante más y un hospital mucho más. Ten a mano el número de tu seguro y el de Healthdirect (1800 022 222) para orientación de salud.",
+     "visas": [
+      "whv",
+      "work",
+      "other"
+     ],
+     "links": [
+      {
+       "label": "Healthdirect",
+       "url": "https://www.healthdirect.gov.au"
+      }
+     ]
+    },
+    {
+     "id": "w2-english",
+     "text": "Si necesitas mejorar tu inglés, busca clases gratuitas o de bajo costo.",
+     "p": 8,
+     "pu": 8,
+     "why": "Las bibliotecas, los centros comunitarios y muchos municipios ofrecen conversación e inglés gratis o barato. Practicar las frases de la pestaña Recursos antes de una entrevista también ayuda.",
+     "action": {
+      "label": "Ver frases en inglés",
+      "to": "recursos",
+      "sub": "frases"
+     }
+    },
+    {
+     "id": "w2-amep",
+     "text": "Revisa si eres elegible para clases gratuitas de inglés del programa AMEP.",
+     "p": 9,
+     "pu": 9,
+     "why": "El Adult Migrant English Program ofrece clases gratuitas a migrantes elegibles. Confirma tu elegibilidad según tu visa.",
+     "visas": [
+      "work",
+      "other"
+     ],
+     "links": [
+      {
+       "label": "Home Affairs: AMEP",
+       "url": "https://immi.homeaffairs.gov.au/settling-in-australia/amep"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "month2",
+   "title": "Mes 2 en adelante",
+   "short": "Mes 2+",
+   "sub": "Ordena impuestos, visa y ahorro, y piensa en tu siguiente paso.",
+   "tasks": [
+    {
+     "id": "m2-tax",
+     "text": "Entiende tus impuestos y crea tu cuenta myGov.",
+     "p": 1,
+     "why": "El año fiscal australiano va del 1 de julio al 30 de junio. Si trabajaste, normalmente presentas una declaración al terminar el año fiscal. Tus reglas dependen de tu visa y de si eres residente fiscal: revisa la guía del ATO para tu caso.",
+     "links": [
+      {
+       "label": "ATO: residentes extranjeros y temporales",
+       "url": "https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas/your-tax-residency/foreign-and-temporary-residents"
+      },
+      {
+       "label": "ATO: Working Holiday Makers",
+       "url": "https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas/coming-to-australia/working-holiday-makers",
+       "visas": [
+        "whv"
+       ]
+      },
+      {
+       "label": "ATO: estudiantes en Australia",
+       "url": "https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas/coming-to-australia/studying-in-australia",
+       "visas": [
+        "student"
+       ]
+      },
+      {
+       "label": "myGov",
+       "url": "https://my.gov.au"
+      }
+     ]
+    },
+    {
+     "id": "m2-visa",
+     "text": "Revisa tu visa en VEVO y, si necesitas ayuda migratoria, usa solo un agente registrado.",
+     "p": 2,
+     "why": "Solo los agentes migratorios registrados (MARA) pueden dar asesoría migratoria. Desconfía de quien te garantice resultados o te pida pagos en efectivo sin recibo.",
+     "links": [
+      {
+       "label": "VEVO: revisa tus condiciones",
+       "url": "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/check-conditions-online"
+      },
+      {
+       "label": "MARA: cómo elegir un agente",
+       "url": "https://www.mara.gov.au/get-help-with-a-visa/help-from-registered-agents/steps-to-choose"
+      },
+      {
+       "label": "MARA: buscar un agente registrado",
+       "url": "https://portal.mara.gov.au/search-the-register-of-migration-agents/"
+      }
+     ]
+    },
+    {
+     "id": "m2-super",
+     "text": "Aprende cómo funciona tu super y qué pasa con él si te vas de Australia.",
+     "p": 3,
+     "why": "Tu empleador deposita super aparte de tu sueldo. Si dejas Australia, podrías reclamarlo como DASP (Departing Australia Superannuation Payment), según tu visa. Guarda los datos de tu fondo.",
+     "links": [
+      {
+       "label": "ATO: DASP",
+       "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/super/temporary-residents-and-superannuation/departing-australia-superannuation-payment-dasp"
+      }
+     ]
+    },
+    {
+     "id": "m2-mental",
+     "text": "Cuida tu salud mental: adaptarse a un país nuevo cansa, y hay ayuda gratuita.",
+     "p": 4,
+     "why": "Extrañar tu casa, la presión del dinero y el idioma son normales. Si te sientes superado, hablar con alguien ayuda. Lifeline (13 11 14) y Beyond Blue (1300 22 4636) atienden a cualquier persona.",
+     "action": {
+      "label": "Ver teléfonos de ayuda",
+      "to": "help"
+     }
+    },
+    {
+     "id": "m2-savings",
+     "text": "Empieza un fondo de emergencia: apunta a cubrir al menos 4 semanas de gastos.",
+     "p": 5,
+     "why": "Es una meta orientativa de Justo, no una regla oficial. Con ese margen puedes perder un turno, cambiar de trabajo o pagar una emergencia sin entrar en pánico.",
+     "action": {
+      "label": "Ver mi colchón",
+      "to": "dinero"
+     }
+    },
+    {
+     "id": "m2-career",
+     "text": "Define tu siguiente paso: mejor trabajo, estudios o experiencia local.",
+     "p": 6,
+     "why": "Con experiencia local y referencias australianas tu CV pesa más. Pide referencias a tus supervisores, actualiza tu CV con logros concretos y explora ofertas de tu área.",
+     "links": [
+      {
+       "label": "Workforce Australia: ofertas",
+       "url": "https://www.workforceaustralia.gov.au/individuals/jobs"
+      },
+      {
+       "label": "LinkedIn: empleos",
+       "url": "https://www.linkedin.com/jobs/"
+      }
+     ]
+    },
+    {
+     "id": "m2-feedback",
+     "text": "Cuéntanos qué te sirvió y qué faltó.",
+     "p": 7,
+     "why": "Justo mejora con tu experiencia. Lo que envíes es privado: no se publica.",
+     "warn": "No incluyas tu pasaporte, tu TFN, números de cuenta ni datos que no quieras compartir.",
+     "action": {
+      "label": "Enviar comentarios",
+      "to": "feedback"
+     }
+    }
+   ]
+  }
+ ],
+ "work": {
+  "intro": "Responde cinco preguntas y Justo arma un plan para conseguir tu primer trabajo lo antes posible. Tus respuestas se quedan en este dispositivo.",
+  "sectors": [
+   {
+    "id": "hospitality",
+    "label": "Cafés, restaurantes y bares",
+    "keywords": [
+     "kitchen hand",
+     "barista",
+     "waiter",
+     "bartender"
+    ],
+    "certs": [
+     "RSA (servicio responsable de alcohol): se pide para servir alcohol. Se obtiene con un curso en tu estado.",
+     "Nociones de higiene de alimentos: algunos locales las piden para cocina; muchos las enseñan al entrar."
+    ],
+    "certLinks": [
+     "rsa"
+    ],
+    "tips": [
+     "Lleva tu CV impreso y entrégalo en persona, preferiblemente fuera de las horas pico (media tarde suele ir bien).",
+     "Kitchen hand (ayudante de cocina) es una puerta de entrada que exige poco inglés.",
+     "Di desde el principio qué días y horarios puedes: en hostelería la disponibilidad pesa mucho.",
+     "Una prueba (trial) debe ser corta y servir para evaluar tus habilidades. Si te ponen a trabajar como empleado, deben pagarte."
+    ]
+   },
+   {
+    "id": "retail",
+    "label": "Tiendas y supermercados",
+    "keywords": [
+     "retail assistant",
+     "sales assistant",
+     "store assistant"
+    ],
+    "certs": [],
+    "tips": [
+     "Pesa más el trato con el cliente que la experiencia: practica una presentación corta en inglés.",
+     "Las cadenas grandes suelen recibir las postulaciones en la sección de empleo de su web; las tiendas pequeñas, en persona.",
+     "Pregunta por turnos de fin de semana y noches: suelen ser los más fáciles de conseguir."
+    ]
+   },
+   {
+    "id": "cleaning",
+    "label": "Limpieza",
+    "keywords": [
+     "cleaner",
+     "commercial cleaner",
+     "hotel housekeeper"
+    ],
+    "certs": [],
+    "tips": [
+     "Es una buena puerta de entrada si tu inglés aún es básico. Muchos turnos son temprano en la mañana o de noche.",
+     "Pide contrato (o carta de oferta) y recibo de sueldo (payslip), incluso si el pago es en efectivo.",
+     "Las empresas de limpieza contratan por zonas: busca las de tu barrio y pregunta cómo llegar al lugar de trabajo."
+    ]
+   },
+   {
+    "id": "warehouse",
+    "label": "Almacén y logística",
+    "keywords": [
+     "warehouse",
+     "picker packer",
+     "forklift operator"
+    ],
+    "certs": [
+     "Licencia de montacargas (High Risk Work licence): solo si buscas operar un forklift. Para picking y packing normalmente no se pide."
+    ],
+    "tips": [
+     "Las agencias de empleo temporal cubren muchos turnos de almacén. Registrarte es gratis: nunca pagues por una oferta.",
+     "Pregunta cómo llegar sin auto; muchos almacenes quedan lejos del transporte público.",
+     "Lleva calzado de seguridad si te lo piden: pregunta quién lo paga antes de comprarlo."
+    ]
+   },
+   {
+    "id": "delivery",
+    "label": "Reparto y conducción",
+    "keywords": [
+     "delivery driver",
+     "courier",
+     "van driver"
+    ],
+    "certs": [
+     "Licencia de conducir válida en tu estado. Revisa cómo puedes usar una licencia extranjera y si necesitas un permiso internacional."
+    ],
+    "tips": [
+     "Muchas apps de reparto te contratan como contratista, no como empleado. Antes de empezar, confirma en Home Affairs si ese trabajo es compatible con tu visa y si cuenta para tu límite de horas.",
+     "Calcula el costo real (combustible, seguro, desgaste del vehículo) antes de decidir si te conviene."
+    ]
+   },
+   {
+    "id": "construction",
+    "label": "Construcción y mantenimiento",
+    "keywords": [
+     "labourer",
+     "construction labourer",
+     "handyman"
+    ],
+    "certs": [
+     "White Card (inducción de seguridad en construcción): se exige para entrar a una obra. El curso es corto."
+    ],
+    "certLinks": [
+     "whitecard"
+    ],
+    "tips": [
+     "Sin White Card no puedes entrar a una obra. Hazla cuando tengas una oferta o la certeza de que la necesitas.",
+     "Si te piden un ABN (número de negocio) en lugar de contratarte, pide asesoría antes de aceptar: podría ser un falso contrato de contratista.",
+     "El trabajo físico se agradece: dilo y muestra buena actitud."
+    ]
+   },
+   {
+    "id": "care",
+    "label": "Cuidado de personas",
+    "keywords": [
+     "care worker",
+     "disability support worker",
+     "aged care worker"
+    ],
+    "certs": [
+     "Suelen pedir un certificado de antecedentes (police check) y, según el rol, formación en cuidado, primeros auxilios y otras acreditaciones."
+    ],
+    "tips": [
+     "Requiere un inglés más fluido y paciencia. Hay mucha demanda, pero también más requisitos.",
+     "Pregunta qué cursos o verificaciones debes tener antes de empezar y quién los paga."
+    ]
+   },
+   {
+    "id": "farm",
+    "label": "Agricultura y campo",
+    "keywords": [
+     "farm hand",
+     "fruit picking",
+     "harvest worker"
+    ],
+    "certs": [],
+    "certLinks": [
+     "whmwork"
+    ],
+    "tips": [
+     "Con Working Holiday, cierto trabajo agrícola en zonas regionales puede contar para pedir una segunda visa. Confirma qué trabajo y qué zonas califican en Home Affairs antes de aceptar.",
+     "Pide por escrito cómo te pagan (por hora o por pieza), dónde dormirás y qué descuentan. Desconfía si te piden dinero para conseguir el trabajo.",
+     "Las condiciones pueden ser duras y el lugar queda lejos: pregunta por transporte y alojamiento."
+    ]
+   },
+   {
+    "id": "office",
+    "label": "Oficina y trabajos profesionales",
+    "keywords": [
+     "administration assistant",
+     "customer service",
+     "receptionist"
+    ],
+    "certs": [],
+    "tips": [
+     "Pide un inglés sólido. LinkedIn y Seek son los canales principales: adapta tu CV a cada oferta.",
+     "Si tu profesión está regulada (ingeniería, salud, educación, etc.), pregunta qué reconocimiento de tu título necesitas.",
+     "Mientras llega la oferta ideal, mantén también postulaciones de ingreso rápido."
+    ]
+   }
+  ],
+  "english": [
+   {
+    "id": "basic",
+    "label": "Básico: entiendo poco y me cuesta hablar",
+    "advice": "Empieza por trabajos donde se habla poco: cocina, limpieza, almacén o campo. Lleva tu CV, practica las frases de Recursos y no esperes a \"hablar bien\" para empezar: tu inglés mejora más rápido trabajando. Busca también clases gratuitas o baratas."
+   },
+   {
+    "id": "mid",
+    "label": "Medio: me defiendo con frases simples",
+    "advice": "Puedes apuntar a cafés, tiendas y reparto. Prepara una presentación de dos minutos en inglés: quién eres, qué sabes hacer y cuándo puedes empezar."
+   },
+   {
+    "id": "high",
+    "label": "Alto: puedo conversar y hacer una entrevista",
+    "advice": "Sube la vara: atención al cliente, oficina y roles profesionales. Usa LinkedIn y adapta tu CV a cada oferta. Mantén también postulaciones de ingreso rápido por si necesitas cobrar mientras llega la oferta ideal."
+   }
+  ],
+  "availability": [
+   {
+    "id": "flex",
+    "label": "Flexible: noches, fines de semana y turnos partidos",
+    "advice": "Ponlo en la primera línea de tu mensaje o de tu CV: en hostelería, tiendas y almacén la disponibilidad te hace más atractivo."
+   },
+   {
+    "id": "limited",
+    "label": "Limitada: tengo clases u otros compromisos",
+    "advice": "Busca trabajos casuales o de pocas horas y avisa tus horarios desde el inicio. Revisa que las horas encajen con las condiciones de tu visa."
+   },
+   {
+    "id": "full",
+    "label": "Completa: puedo trabajar a tiempo completo",
+    "advice": "Apunta a puestos permanentes o con turnos regulares. Si tu visa limita las horas, confírmalo antes de aceptar."
+   }
+  ],
+  "licence": [
+   {
+    "id": "yes",
+    "label": "Sí, tengo licencia de conducir",
+    "advice": "Se abren repartos y trabajos con conducción. Revisa cómo puedes usar tu licencia extranjera en tu estado."
+   },
+   {
+    "id": "no",
+    "label": "No tengo licencia",
+    "advice": "Prioriza trabajos accesibles en transporte público y cerca de donde vives: el transporte es un costo y un horario."
+   }
+  ],
+  "before": [
+   "CV al estilo australiano en inglés (1 o 2 páginas, sin foto ni edad).",
+   "Un número de teléfono australiano y un correo con tu nombre real.",
+   "Tu visa a mano, y claro qué trabajos y cuántas horas permite.",
+   "TFN solicitado (puedes empezar sin él, pero entrégalo apenas lo tengas).",
+   "Una cuenta bancaria para que te paguen.",
+   "Una dirección estable donde recibir correo.",
+   "Los certificados que pide tu sector (ver abajo)."
+  ],
+  "plan": [
+   {
+    "day": "Día 1",
+    "text": "Deja listo tu CV, tu correo y tu teléfono australiano."
+   },
+   {
+    "day": "Día 2",
+    "text": "Activa alertas de empleo con tus palabras clave en Seek, Indeed y Jora."
+   },
+   {
+    "day": "Día 3",
+    "text": "Recorre tu zona con 10 CV impresos y entrégalos en cafés, restaurantes y tiendas."
+   },
+   {
+    "day": "Día 4",
+    "text": "Postula en línea a 5 ofertas y personaliza la primera frase de cada una."
+   },
+   {
+    "day": "Día 5",
+    "text": "Regístrate en dos agencias de empleo temporal de tu ciudad."
+   },
+   {
+    "day": "Día 6",
+    "text": "Haz seguimiento: vuelve a pasar o escribe a los lugares donde dejaste tu CV."
+   },
+   {
+    "day": "Día 7",
+    "text": "Revisa qué funcionó y ajusta tu CV, tus palabras clave y tus zonas."
+   }
+  ],
+  "planNote": "Es una guía de ritmo, no un calendario rígido: ajusta los días a tu realidad.",
+  "visaBlocks": {
+   "student": {
+    "text": "Tu visa de estudiante limita las horas que puedes trabajar. No te guíes por cifras que te cuenten: revisa las condiciones vigentes en VEVO y en Home Affairs, porque pueden cambiar. Superarlas puede poner en riesgo tu visa.",
+    "links": [
+     {
+      "label": "VEVO: revisa tus condiciones",
+      "url": "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/check-conditions-online"
+     },
+     {
+      "label": "Home Affairs: visa de estudiante (500)",
+      "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"
+     }
+    ]
+   },
+   "whv": {
+    "text": "Con Working Holiday normalmente puedes trabajar hasta 6 meses con el mismo empleador. Algunos trabajos pueden contar para extender tu visa. Confirma las excepciones antes de aceptar un empleo.",
+    "links": [
+     {
+      "label": "Condiciones de trabajo del programa",
+      "url": "https://immi.homeaffairs.gov.au/programs-subsite/Pages/working-holiday-maker/work-conditions.aspx"
+     },
+     {
+      "label": "Límite de 6 meses con un empleador",
+      "url": "https://immi.homeaffairs.gov.au/what-we-do/whm-program/specified-work-conditions/6-month-work-limitation"
+     }
+    ]
+   },
+   "work": {
+    "text": "Tu visa de trabajo suele ligarte a un empleador y a una ocupación. Revisa tus condiciones en VEVO antes de aceptar otro trabajo.",
+    "links": [
+     {
+      "label": "VEVO: revisa tus condiciones",
+      "url": "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/check-conditions-online"
+     }
+    ]
+   },
+   "other": {
+    "text": "Revisa en VEVO si tu visa permite trabajar y bajo qué condiciones antes de postular.",
+    "links": [
+     {
+      "label": "VEVO: revisa tus condiciones",
+      "url": "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/check-conditions-online"
+     }
+    ]
+   }
+  },
+  "rights": [
+   "Nadie legítimo te cobra por darte un empleo ni por patrocinar tu visa.",
+   "Pide contrato o carta de oferta y recibo de sueldo (payslip). El pago mínimo aplica a todos los trabajadores, sea cual sea su visa.",
+   "Una prueba (trial) debe ser corta y servir para evaluar tus habilidades.",
+   "Desconfía de ofertas que prometen mucho dinero sin experiencia, piden un pago por adelantado o se manejan solo por WhatsApp."
+  ],
+  "rightsLinks": [
+   {
+    "label": "Fair Work: calculadora de pago y condiciones",
+    "url": "https://calculate.fairwork.gov.au/"
+   },
+   {
+    "label": "Fair Work: trabajadores con visa",
+    "url": "https://www.fairwork.gov.au/find-help-for/visa-holders-migrants"
+   },
+   {
+    "label": "Scamwatch: estafas de empleo",
+    "url": "https://www.scamwatch.gov.au/types-of-scams/jobs-and-employment-scams"
+   }
+  ],
+  "extraLinks": [
+   {
+    "id": "whitecard",
+    "label": "Safe Work Australia: White Card",
+    "url": "https://www.safeworkaustralia.gov.au/safety-topic/industry-and-business/construction/working-construction-site"
+   },
+   {
+    "id": "whmwork",
+    "label": "Condiciones de trabajo del programa Working Holiday",
+    "url": "https://immi.homeaffairs.gov.au/programs-subsite/Pages/working-holiday-maker/work-conditions.aspx"
+   }
+  ],
+  "boards": [
+   {
+    "label": "Workforce Australia: ofertas del gobierno",
+    "url": "https://www.workforceaustralia.gov.au/individuals/jobs"
+   },
+   {
+    "label": "LinkedIn: empleos",
+    "url": "https://www.linkedin.com/jobs/"
+   },
+   {
+    "label": "Workforce Australia: consejos para postular",
+    "url": "https://www.workforceaustralia.gov.au/individuals/coaching/job-applications/job-application-tips"
+   },
+   {
+    "label": "Workforce Australia: cómo hacer tu CV",
+    "url": "https://www.workforceaustralia.gov.au/individuals/coaching/job-applications/resumes"
+   },
+   {
+    "label": "Workforce Australia: carta de presentación",
+    "url": "https://www.workforceaustralia.gov.au/individuals/coaching/job-applications/cover-letters"
+   }
+  ]
+ },
+ "resCats": [
+  {
+   "id": "llegada",
+   "label": "Llegada y aduana"
+  },
+  {
+   "id": "visa",
+   "label": "Visa y trámites"
+  },
+  {
+   "id": "trabajo",
+   "label": "Trabajo"
+  },
+  {
+   "id": "vivienda",
+   "label": "Vivienda"
+  },
+  {
+   "id": "dinero",
+   "label": "Dinero e impuestos"
+  },
+  {
+   "id": "salud",
+   "label": "Salud"
+  },
+  {
+   "id": "derechos",
+   "label": "Derechos y estafas"
+  },
+  {
+   "id": "diario",
+   "label": "Vida diaria"
+  }
+ ],
+ "resources": [
+  {
+   "cat": "llegada",
+   "title": "ABF: ¿puedo traerlo?",
+   "desc": "Qué puedes traer a Australia, qué debes declarar y qué está prohibido.",
+   "url": "https://www.abf.gov.au/entering-and-leaving-australia/can-you-bring-it-in",
+   "kind": "gov"
+  },
+  {
+   "cat": "llegada",
+   "title": "ABF: alcohol y tabaco",
+   "desc": "Límites de referencia para entrar con alcohol y tabaco sin pagar impuestos.",
+   "url": "https://www.abf.gov.au/entering-and-leaving-australia/can-you-bring-it-in/categories/duty-free",
+   "kind": "gov"
+  },
+  {
+   "cat": "llegada",
+   "title": "ABF: comida",
+   "desc": "Qué comida puedes traer y cuál debes declarar.",
+   "url": "https://www.abf.gov.au/entering-and-leaving-australia/can-you-bring-it-in/categories/food",
+   "kind": "gov"
+  },
+  {
+   "cat": "llegada",
+   "title": "Biosecurity: viajar a Australia",
+   "desc": "Reglas para traer comida, plantas, productos animales y artículos usados.",
+   "url": "https://www.agriculture.gov.au/biosecurity-trade/travelling/to-australia",
+   "kind": "gov"
+  },
+  {
+   "cat": "llegada",
+   "title": "Biosecurity: si vienes a estudiar",
+   "desc": "Información de biosecurity para estudiantes que llegan a Australia.",
+   "url": "https://www.agriculture.gov.au/biosecurity-trade/travelling/to-australia/studying-in-australia",
+   "kind": "gov",
+   "visas": [
+    "student"
+   ]
+  },
+  {
+   "cat": "llegada",
+   "title": "Home Affairs: llegar a Australia",
+   "desc": "Tarjeta de llegada (Incoming Passenger Card) y qué se declara al cruzar la frontera.",
+   "url": "https://immi.homeaffairs.gov.au/entering-and-leaving-australia/entering-australia/crossing-the-border",
+   "kind": "gov"
+  },
+  {
+   "cat": "llegada",
+   "title": "AUSTRAC: declarar efectivo",
+   "desc": "Si llevas AUD 10.000 o más (o su equivalente), debes declararlo.",
+   "url": "https://www.austrac.gov.au/travellers/declare-your-cash-you-travel",
+   "kind": "gov"
+  },
+  {
+   "cat": "llegada",
+   "title": "TGA: medicinas al viajar",
+   "desc": "Cómo entrar con medicinas y dispositivos médicos.",
+   "url": "https://www.tga.gov.au/resources/consumer-information-and-resources/travelling-medicines-and-medical-devices/entering-australia",
+   "kind": "gov"
+  },
+  {
+   "cat": "llegada",
+   "title": "TGA: vapes",
+   "desc": "Reglas para vapes y nicotina para viajeros.",
+   "url": "https://www.tga.gov.au/products/unapproved-therapeutic-goods/therapeutic-vaping-goods/vaping-hub/vapes-information-individuals-and-patients",
+   "kind": "gov"
+  },
+  {
+   "cat": "visa",
+   "title": "VEVO: revisa tus condiciones",
+   "desc": "Consulta en línea tu visa y las condiciones de trabajo y estudio.",
+   "url": "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/check-conditions-online",
+   "kind": "gov"
+  },
+  {
+   "cat": "visa",
+   "title": "Visa de estudiante (500)",
+   "desc": "Requisitos y condiciones de la visa de estudiante.",
+   "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+   "kind": "gov",
+   "visas": [
+    "student"
+   ]
+  },
+  {
+   "cat": "visa",
+   "title": "Study Australia: guía de la visa 500",
+   "desc": "Explicación paso a paso de la visa de estudiante.",
+   "url": "https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500",
+   "kind": "gov",
+   "visas": [
+    "student"
+   ]
+  },
+  {
+   "cat": "visa",
+   "title": "Working Holiday (417)",
+   "desc": "Requisitos y condiciones de la visa 417.",
+   "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417",
+   "kind": "gov",
+   "visas": [
+    "whv"
+   ]
+  },
+  {
+   "cat": "visa",
+   "title": "Work and Holiday (462)",
+   "desc": "Requisitos y condiciones de la visa 462.",
+   "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-462",
+   "kind": "gov",
+   "visas": [
+    "whv"
+   ]
+  },
+  {
+   "cat": "visa",
+   "title": "Condiciones de trabajo del programa Working Holiday",
+   "desc": "Qué trabajos puedes hacer y por cuánto tiempo.",
+   "url": "https://immi.homeaffairs.gov.au/programs-subsite/Pages/working-holiday-maker/work-conditions.aspx",
+   "kind": "gov",
+   "visas": [
+    "whv"
+   ]
+  },
+  {
+   "cat": "visa",
+   "title": "Límite de 6 meses con un empleador",
+   "desc": "Cómo funciona el límite y sus excepciones.",
+   "url": "https://immi.homeaffairs.gov.au/what-we-do/whm-program/specified-work-conditions/6-month-work-limitation",
+   "kind": "gov",
+   "visas": [
+    "whv"
+   ]
+  },
+  {
+   "cat": "visa",
+   "title": "MARA: cómo elegir un agente migratorio",
+   "desc": "Pasos para elegir a un agente registrado.",
+   "url": "https://www.mara.gov.au/get-help-with-a-visa/help-from-registered-agents/steps-to-choose",
+   "kind": "gov"
+  },
+  {
+   "cat": "visa",
+   "title": "MARA: buscar un agente registrado",
+   "desc": "Comprueba que un agente esté inscrito en el registro oficial.",
+   "url": "https://portal.mara.gov.au/search-the-register-of-migration-agents/",
+   "kind": "gov"
+  },
+  {
+   "cat": "visa",
+   "title": "TIS: servicio de intérpretes",
+   "desc": "Intérprete telefónico gratuito para ciertos trámites. Teléfono 131 450.",
+   "url": "https://immi.homeaffairs.gov.au/settling-in-australia/settle-in-australia/language-services/tis-national",
+   "kind": "gov"
+  },
+  {
+   "cat": "visa",
+   "title": "AMEP: clases de inglés para migrantes",
+   "desc": "Programa de inglés gratuito para migrantes elegibles.",
+   "url": "https://immi.homeaffairs.gov.au/settling-in-australia/amep",
+   "kind": "gov",
+   "visas": [
+    "work",
+    "other"
+   ]
+  },
+  {
+   "cat": "trabajo",
+   "title": "Seek",
+   "desc": "Uno de los portales de empleo más usados en Australia.",
+   "url": "https://www.seek.com.au",
+   "kind": "com"
+  },
+  {
+   "cat": "trabajo",
+   "title": "Indeed Australia",
+   "desc": "Buscador de ofertas de muchos portales.",
+   "url": "https://au.indeed.com",
+   "kind": "com"
+  },
+  {
+   "cat": "trabajo",
+   "title": "Jora",
+   "desc": "Buscador de ofertas de empleo en Australia.",
+   "url": "https://au.jora.com",
+   "kind": "com"
+  },
+  {
+   "cat": "trabajo",
+   "title": "LinkedIn: empleos",
+   "desc": "Útil para trabajos de oficina y profesionales.",
+   "url": "https://www.linkedin.com/jobs/",
+   "kind": "com"
+  },
+  {
+   "cat": "trabajo",
+   "title": "Workforce Australia: ofertas",
+   "desc": "Portal de empleo del gobierno.",
+   "url": "https://www.workforceaustralia.gov.au/individuals/jobs",
+   "kind": "gov"
+  },
+  {
+   "cat": "trabajo",
+   "title": "Workforce Australia: cómo hacer tu CV",
+   "desc": "Guía oficial para un CV australiano.",
+   "url": "https://www.workforceaustralia.gov.au/individuals/coaching/job-applications/resumes",
+   "kind": "gov"
+  },
+  {
+   "cat": "trabajo",
+   "title": "Workforce Australia: carta de presentación",
+   "desc": "Cómo escribir una carta de presentación.",
+   "url": "https://www.workforceaustralia.gov.au/individuals/coaching/job-applications/cover-letters",
+   "kind": "gov"
+  },
+  {
+   "cat": "trabajo",
+   "title": "Workforce Australia: consejos para postular",
+   "desc": "Cómo preparar postulaciones y entrevistas.",
+   "url": "https://www.workforceaustralia.gov.au/individuals/coaching/job-applications/job-application-tips",
+   "kind": "gov"
+  },
+  {
+   "cat": "trabajo",
+   "title": "Safe Work Australia: White Card",
+   "desc": "Qué es la inducción de construcción y cómo obtenerla.",
+   "url": "https://www.safeworkaustralia.gov.au/safety-topic/industry-and-business/construction/working-construction-site",
+   "kind": "gov"
+  },
+  {
+   "cat": "vivienda",
+   "title": "Flatmates",
+   "desc": "Habitaciones y casas compartidas.",
+   "url": "https://flatmates.com.au",
+   "kind": "com"
+  },
+  {
+   "cat": "vivienda",
+   "title": "Domain",
+   "desc": "Alquileres y ventas de propiedades.",
+   "url": "https://www.domain.com.au",
+   "kind": "com"
+  },
+  {
+   "cat": "vivienda",
+   "title": "realestate.com.au",
+   "desc": "Alquileres y ventas de propiedades.",
+   "url": "https://www.realestate.com.au",
+   "kind": "com"
+  },
+  {
+   "cat": "vivienda",
+   "title": "Gumtree",
+   "desc": "Avisos clasificados. Hay más estafas: verifica todo.",
+   "url": "https://www.gumtree.com.au",
+   "kind": "com"
+  },
+  {
+   "cat": "vivienda",
+   "title": "Hostelworld",
+   "desc": "Reserva de hostales para tus primeras noches.",
+   "url": "https://www.hostelworld.com",
+   "kind": "com"
+  },
+  {
+   "cat": "vivienda",
+   "title": "YHA Australia",
+   "desc": "Red de hostales.",
+   "url": "https://www.yha.com.au",
+   "kind": "com"
+  },
+  {
+   "cat": "vivienda",
+   "title": "Study Australia: alojamiento",
+   "desc": "Tipos de alojamiento para estudiantes y consejos.",
+   "url": "https://www.studyaustralia.gov.au/en/life-in-australia/accommodation",
+   "kind": "gov",
+   "visas": [
+    "student"
+   ]
+  },
+  {
+   "cat": "dinero",
+   "title": "ATO: solicitar tu TFN",
+   "desc": "Pide tu número de contribuyente, gratis, en el sitio oficial.",
+   "url": "https://www.ato.gov.au/forms-and-instructions/tfn-application-for-permanent-migrants-and-temporary-visitors",
+   "kind": "gov"
+  },
+  {
+   "cat": "dinero",
+   "title": "ATO: residentes extranjeros y temporales",
+   "desc": "Cómo tributas según tu residencia fiscal.",
+   "url": "https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas/your-tax-residency/foreign-and-temporary-residents",
+   "kind": "gov"
+  },
+  {
+   "cat": "dinero",
+   "title": "ATO: Working Holiday Makers",
+   "desc": "Reglas de impuestos para Working Holiday.",
+   "url": "https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas/coming-to-australia/working-holiday-makers",
+   "kind": "gov",
+   "visas": [
+    "whv"
+   ]
+  },
+  {
+   "cat": "dinero",
+   "title": "ATO: estudiantes en Australia",
+   "desc": "Impuestos si estudias y trabajas.",
+   "url": "https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas/coming-to-australia/studying-in-australia",
+   "kind": "gov",
+   "visas": [
+    "student"
+   ]
+  },
+  {
+   "cat": "dinero",
+   "title": "ATO: super para residentes temporales",
+   "desc": "Cómo funciona el super si tu visa es temporal.",
+   "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/super/temporary-residents-and-superannuation/how-superannuation-applies-to-temporary-residents",
+   "kind": "gov"
+  },
+  {
+   "cat": "dinero",
+   "title": "ATO: DASP",
+   "desc": "Cómo reclamar tu super al dejar Australia.",
+   "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/super/temporary-residents-and-superannuation/departing-australia-superannuation-payment-dasp",
+   "kind": "gov"
+  },
+  {
+   "cat": "dinero",
+   "title": "myGov",
+   "desc": "Tu acceso a servicios del gobierno, incluido el ATO.",
+   "url": "https://my.gov.au",
+   "kind": "gov"
+  },
+  {
+   "cat": "dinero",
+   "title": "CommBank: nuevo en Australia",
+   "desc": "Guía para abrir una cuenta si acabas de llegar.",
+   "url": "https://www.commbank.com.au/moving-to-australia.html",
+   "kind": "com"
+  },
+  {
+   "cat": "dinero",
+   "title": "Westpac: nuevo en Australia",
+   "desc": "Guía para abrir una cuenta si acabas de llegar.",
+   "url": "https://www.westpac.com.au/international-travel/new-to-australia/",
+   "kind": "com"
+  },
+  {
+   "cat": "dinero",
+   "title": "MoneySmart: planificador de presupuesto",
+   "desc": "Herramienta oficial para armar tu presupuesto.",
+   "url": "https://moneysmart.gov.au/budgeting/budget-planner",
+   "kind": "gov"
+  },
+  {
+   "cat": "dinero",
+   "title": "Calculadora de costo de vida",
+   "desc": "Estima cuánto cuesta vivir en una ciudad australiana.",
+   "url": "https://costofliving.studyaustralia.gov.au/",
+   "kind": "gov"
+  },
+  {
+   "cat": "dinero",
+   "title": "Wise",
+   "desc": "Transferencias internacionales. Compara comisiones y tipo de cambio.",
+   "url": "https://wise.com",
+   "kind": "com"
+  },
+  {
+   "cat": "dinero",
+   "title": "Remitly",
+   "desc": "Envío de dinero. Compara comisiones y tipo de cambio.",
+   "url": "https://www.remitly.com",
+   "kind": "com"
+  },
+  {
+   "cat": "dinero",
+   "title": "OFX",
+   "desc": "Cambio de divisas y transferencias. Compara antes de elegir.",
+   "url": "https://www.ofx.com",
+   "kind": "com"
+  },
+  {
+   "cat": "salud",
+   "title": "OSHC: seguro de salud para estudiantes",
+   "desc": "Qué cubre y por qué es obligatorio para tu visa.",
+   "url": "https://www.studyaustralia.gov.au/en/plan-your-move/overseas-student-health-cover-oshc",
+   "kind": "gov",
+   "visas": [
+    "student"
+   ]
+  },
+  {
+   "cat": "salud",
+   "title": "Medicare: cómo inscribirte",
+   "desc": "Quién puede inscribirse y cómo.",
+   "url": "https://www.servicesaustralia.gov.au/enrolling-medicare",
+   "kind": "gov"
+  },
+  {
+   "cat": "salud",
+   "title": "Medicare para residentes temporales",
+   "desc": "Si tu caso está cubierto por una Orden Ministerial.",
+   "url": "https://www.servicesaustralia.gov.au/enrolling-medicare-if-youre-temporary-resident-covered-ministerial-order",
+   "kind": "gov"
+  },
+  {
+   "cat": "salud",
+   "title": "Healthdirect",
+   "desc": "Orientación de salud confiable. Teléfono 1800 022 222.",
+   "url": "https://www.healthdirect.gov.au",
+   "kind": "gov"
+  },
+  {
+   "cat": "salud",
+   "title": "Lifeline",
+   "desc": "Apoyo emocional en crisis. Teléfono 13 11 14.",
+   "url": "https://www.lifeline.org.au",
+   "kind": "ngo"
+  },
+  {
+   "cat": "salud",
+   "title": "Beyond Blue",
+   "desc": "Apoyo para ansiedad y depresión. Teléfono 1300 22 4636.",
+   "url": "https://www.beyondblue.org.au",
+   "kind": "ngo"
+  },
+  {
+   "cat": "salud",
+   "title": "1800RESPECT",
+   "desc": "Apoyo ante violencia doméstica y sexual. Teléfono 1800 737 732.",
+   "url": "https://www.1800respect.org.au",
+   "kind": null
+  },
+  {
+   "cat": "derechos",
+   "title": "Fair Work: trabajadores con visa",
+   "desc": "Tus derechos laborales y cómo pedir ayuda. Teléfono 13 13 94.",
+   "url": "https://www.fairwork.gov.au/find-help-for/visa-holders-migrants",
+   "kind": "gov"
+  },
+  {
+   "cat": "derechos",
+   "title": "Fair Work: calculadora de pago y condiciones",
+   "desc": "Comprueba cuánto debe pagarte tu empleador.",
+   "url": "https://calculate.fairwork.gov.au/",
+   "kind": "gov"
+  },
+  {
+   "cat": "derechos",
+   "title": "Fair Work: salarios mínimos",
+   "desc": "Salarios mínimos vigentes.",
+   "url": "https://www.fairwork.gov.au/pay-and-wages/minimum-wages",
+   "kind": "gov"
+  },
+  {
+   "cat": "derechos",
+   "title": "Scamwatch: alquileres falsos",
+   "desc": "Cómo reconocer avisos de alquiler falsos.",
+   "url": "https://www.scamwatch.gov.au/about-us/news-and-alerts/fake-rental-properties-and-shared-accommodation-listings",
+   "kind": "gov"
+  },
+  {
+   "cat": "derechos",
+   "title": "Scamwatch: estafas de empleo",
+   "desc": "Señales de ofertas de trabajo falsas.",
+   "url": "https://www.scamwatch.gov.au/types-of-scams/jobs-and-employment-scams",
+   "kind": "gov"
+  },
+  {
+   "cat": "derechos",
+   "title": "Scamwatch: Stop. Check. Protect.",
+   "desc": "Tres pasos para protegerte de estafas.",
+   "url": "https://www.scamwatch.gov.au/stop-check-protect",
+   "kind": "gov"
+  },
+  {
+   "cat": "derechos",
+   "title": "Ask Izzy",
+   "desc": "Encuentra servicios gratuitos cerca de ti: comida, alojamiento y apoyo.",
+   "url": "https://askizzy.org.au/",
+   "kind": "ngo"
+  },
+  {
+   "cat": "diario",
+   "title": "Telstra",
+   "desc": "Operador móvil con amplia cobertura. Compara planes prepagos.",
+   "url": "https://www.telstra.com.au",
+   "kind": "com"
+  },
+  {
+   "cat": "diario",
+   "title": "Optus",
+   "desc": "Operador móvil. Compara planes prepagos.",
+   "url": "https://www.optus.com.au",
+   "kind": "com"
+  },
+  {
+   "cat": "diario",
+   "title": "Vodafone",
+   "desc": "Operador móvil. Compara planes prepagos.",
+   "url": "https://www.vodafone.com.au",
+   "kind": "com"
+  },
+  {
+   "cat": "diario",
+   "title": "Boost",
+   "desc": "Planes prepagos que usan la red de Telstra.",
+   "url": "https://www.boost.com.au",
+   "kind": "com"
+  },
+  {
+   "cat": "diario",
+   "title": "Meetup",
+   "desc": "Encuentros y grupos por intereses en tu ciudad.",
+   "url": "https://www.meetup.com",
+   "kind": "com"
+  },
+  {
+   "cat": "diario",
+   "title": "Eventbrite",
+   "desc": "Eventos y actividades en tu ciudad.",
+   "url": "https://www.eventbrite.com.au",
+   "kind": "com"
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Bond",
+   "def": "Depósito de garantía que pagas al alquilar. Debe depositarse en el organismo oficial de tu estado y se devuelve al terminar el contrato si no hay daños ni deudas. Pide siempre el comprobante."
+  },
+  {
+   "term": "Lease / tenancy agreement",
+   "def": "Contrato de alquiler. Léelo completo antes de firmar y guarda una copia."
+  },
+  {
+   "term": "Flatmate / share house",
+   "def": "Compañero de casa / casa compartida. Es la forma más común y barata de alquilar al llegar."
+  },
+  {
+   "term": "Inspection",
+   "def": "Visita para ver una propiedad antes de alquilarla. También se llama así la revisión periódica que hace el arrendador."
+  },
+  {
+   "term": "Rent in advance",
+   "def": "Renta que pagas por adelantado al empezar el contrato. El máximo permitido depende de tu estado."
+  },
+  {
+   "term": "TFN (Tax File Number)",
+   "def": "Tu número de contribuyente. Se pide gratis en el sitio del ATO y lo entregas a tu empleador."
+  },
+  {
+   "term": "ATO",
+   "def": "Oficina de Impuestos de Australia (Australian Taxation Office)."
+  },
+  {
+   "term": "ABN",
+   "def": "Número de negocio. Lo usan quienes trabajan por cuenta propia (contratistas), no los empleados."
+  },
+  {
+   "term": "Super (superannuation)",
+   "def": "Fondo de jubilación. Tu empleador deposita dinero en él aparte de tu sueldo."
+  },
+  {
+   "term": "Payslip",
+   "def": "Recibo de sueldo. Tu empleador debe dártelo e incluye horas, pago, impuestos y super."
+  },
+  {
+   "term": "Gross / net",
+   "def": "Bruto (antes de impuestos) / neto (lo que recibes después de impuestos)."
+  },
+  {
+   "term": "Casual",
+   "def": "Trabajo sin horas fijas, pagado por hora y normalmente con un recargo. Es lo más común en trabajos de entrada."
+  },
+  {
+   "term": "Part-time / full-time",
+   "def": "Part-time: horas regulares, menos que tiempo completo. Full-time: tiempo completo."
+  },
+  {
+   "term": "Award",
+   "def": "Acuerdo que fija el pago mínimo y las condiciones de una industria (por ejemplo, hostelería). Fair Work lo explica."
+  },
+  {
+   "term": "Fair Work",
+   "def": "La autoridad australiana que protege los derechos laborales. Su teléfono es 13 13 94."
+  },
+  {
+   "term": "Shift / roster",
+   "def": "Turno de trabajo / horario semanal de turnos."
+  },
+  {
+   "term": "Walk-in",
+   "def": "Entrar a un negocio a entregar tu CV en persona."
+  },
+  {
+   "term": "Trial shift",
+   "def": "Turno de prueba corto para evaluar tus habilidades. Si te ponen a trabajar como empleado, deben pagarte."
+  },
+  {
+   "term": "Cash in hand",
+   "def": "Pago en efectivo. Puede ser legal si se declara, pero muchas veces significa sin contrato ni recibo de sueldo: desconfía."
+  },
+  {
+   "term": "Referee",
+   "def": "Persona que da referencias sobre ti (un antiguo jefe o supervisor). Los empleadores suelen pedir una o dos."
+  },
+  {
+   "term": "Cover letter",
+   "def": "Carta de presentación que acompaña tu CV."
+  },
+  {
+   "term": "RSA",
+   "def": "Responsible Service of Alcohol: certificado para servir alcohol. Lo exige cada estado."
+  },
+  {
+   "term": "White Card",
+   "def": "Certificado de inducción de seguridad para trabajar en obras de construcción."
+  },
+  {
+   "term": "Police check",
+   "def": "Certificado de antecedentes. Algunos trabajos de cuidado lo exigen."
+  },
+  {
+   "term": "GP",
+   "def": "Médico general. Es la primera parada para casi cualquier consulta de salud."
+  },
+  {
+   "term": "OSHC",
+   "def": "Seguro de salud obligatorio para estudiantes internacionales (Overseas Student Health Cover)."
+  },
+  {
+   "term": "Medicare",
+   "def": "Sistema público de salud. No cubre a todos los visitantes ni a todas las visas."
+  },
+  {
+   "term": "Bulk billing",
+   "def": "Cuando el médico cobra directamente a Medicare y tú no pagas la consulta. Aplica solo si tienes cobertura de Medicare."
+  },
+  {
+   "term": "Centrelink",
+   "def": "Agencia de pagos del gobierno. La mayoría de las visas temporales no dan acceso a sus beneficios."
+  },
+  {
+   "term": "VEVO",
+   "def": "Servicio en línea para ver tu visa y sus condiciones."
+  },
+  {
+   "term": "CoE (Confirmation of Enrolment)",
+   "def": "Confirmación de matrícula que necesitan los estudiantes internacionales."
+  },
+  {
+   "term": "ImmiAccount",
+   "def": "Tu cuenta en línea de Home Affairs para trámites de visa."
+  },
+  {
+   "term": "MARA",
+   "def": "Registro de agentes migratorios. Solo ellos pueden dar asesoría migratoria."
+  },
+  {
+   "term": "Incoming Passenger Card",
+   "def": "Tarjeta de llegada que completas antes de pasar por migración y aduana. Aquí declaras comida, dinero en efectivo y otros artículos."
+  },
+  {
+   "term": "Biosecurity",
+   "def": "Controles para evitar plagas y enfermedades. Declara comida, plantas y productos de origen animal."
+  },
+  {
+   "term": "Tap on / tap off",
+   "def": "Tocar tu tarjeta de transporte al subir y al bajar para que se cobre bien el viaje."
+  },
+  {
+   "term": "Op shop",
+   "def": "Tienda de segunda mano de caridad. Ropa, ollas y muebles baratos."
+  }
+ ],
+ "phrases": [
+  {
+   "title": "Buscar trabajo en persona",
+   "items": [
+    {
+     "en": "Hi, I'm looking for work. Are you hiring?",
+     "tr": "Hola, busco trabajo. ¿Están contratando?"
+    },
+    {
+     "en": "Can I leave my CV with you?",
+     "tr": "¿Puedo dejarle mi CV?"
+    },
+    {
+     "en": "Who should I speak to about a job?",
+     "tr": "¿Con quién debo hablar sobre un trabajo?"
+    },
+    {
+     "en": "I can start immediately.",
+     "tr": "Puedo empezar de inmediato."
+    },
+    {
+     "en": "I'm available on weekends and evenings.",
+     "tr": "Estoy disponible fines de semana y noches."
+    },
+    {
+     "en": "I have the right to work in Australia.",
+     "tr": "Tengo permiso para trabajar en Australia."
+    },
+    {
+     "en": "I'm reliable and I learn quickly.",
+     "tr": "Soy responsable y aprendo rápido."
+    }
+   ]
+  },
+  {
+   "title": "Por teléfono o correo",
+   "items": [
+    {
+     "en": "Hello, I'm calling about the [job title] position.",
+     "tr": "Hola, llamo por el puesto de [cargo]."
+    },
+    {
+     "en": "Is the position still available?",
+     "tr": "¿El puesto sigue disponible?"
+    },
+    {
+     "en": "Could you please speak a bit slower?",
+     "tr": "¿Podría hablar un poco más despacio, por favor?"
+    },
+    {
+     "en": "Sorry, could you repeat that?",
+     "tr": "Perdón, ¿podría repetirlo?"
+    },
+    {
+     "en": "Could you send me the details by email or text?",
+     "tr": "¿Podría enviarme los detalles por correo o mensaje?"
+    }
+   ]
+  },
+  {
+   "title": "En la entrevista",
+   "items": [
+    {
+     "en": "Thank you for the opportunity.",
+     "tr": "Gracias por la oportunidad."
+    },
+    {
+     "en": "I'm from [country]. I have [number] years of experience in [area]. I'm reliable and I learn quickly.",
+     "tr": "Soy de [país]. Tengo [número] años de experiencia en [área]. Soy responsable y aprendo rápido."
+    },
+    {
+     "en": "What are the hours and shifts?",
+     "tr": "¿Cuáles son los horarios y los turnos?"
+    },
+    {
+     "en": "Is the job casual, part-time or full-time?",
+     "tr": "¿El trabajo es casual, part-time o full-time?"
+    },
+    {
+     "en": "What is the hourly rate?",
+     "tr": "¿Cuál es la tarifa por hora?"
+    },
+    {
+     "en": "Will I get a payslip and super?",
+     "tr": "¿Recibiré recibo de sueldo y super?"
+    },
+    {
+     "en": "Is the trial shift paid?",
+     "tr": "¿El turno de prueba es pagado?"
+    },
+    {
+     "en": "Will I have a written contract?",
+     "tr": "¿Tendré un contrato por escrito?"
+    }
+   ]
+  },
+  {
+   "title": "Alquiler y alojamiento",
+   "items": [
+    {
+     "en": "Is the room still available?",
+     "tr": "¿La habitación sigue disponible?"
+    },
+    {
+     "en": "How much is the rent and the bond?",
+     "tr": "¿Cuánto es la renta y el bond?"
+    },
+    {
+     "en": "Are bills included?",
+     "tr": "¿Los gastos (luz, internet) están incluidos?"
+    },
+    {
+     "en": "Can I inspect the room before paying?",
+     "tr": "¿Puedo ver la habitación antes de pagar?"
+    },
+    {
+     "en": "Will I get a written agreement and a receipt for the bond?",
+     "tr": "¿Habrá un contrato escrito y un recibo del bond?"
+    }
+   ]
+  },
+  {
+   "title": "Salud y emergencias",
+   "items": [
+    {
+     "en": "I need an ambulance.",
+     "tr": "Necesito una ambulancia."
+    },
+    {
+     "en": "I need the police.",
+     "tr": "Necesito a la policía."
+    },
+    {
+     "en": "I don't speak English well. Can I have a Spanish interpreter?",
+     "tr": "No hablo bien inglés. ¿Puedo tener un intérprete de español?"
+    },
+    {
+     "en": "I'd like to book an appointment with a doctor.",
+     "tr": "Quisiera agendar una cita con un médico."
+    },
+    {
+     "en": "I have overseas student health cover.",
+     "tr": "Tengo seguro de salud para estudiantes internacionales."
+    }
+   ]
+  },
+  {
+   "title": "Día a día",
+   "items": [
+    {
+     "en": "I'm new here.",
+     "tr": "Soy nuevo aquí."
+    },
+    {
+     "en": "How do I get to [place]?",
+     "tr": "¿Cómo llego a [lugar]?"
+    },
+    {
+     "en": "Does this bus go to [place]?",
+     "tr": "¿Este bus va a [lugar]?"
+    },
+    {
+     "en": "I'd like to open a bank account.",
+     "tr": "Quisiera abrir una cuenta bancaria."
+    },
+    {
+     "en": "Could you help me, please?",
+     "tr": "¿Podría ayudarme, por favor?"
+    }
+   ]
+  }
+ ],
+ "templates": [
+  {
+   "id": "facebook",
+   "title": "Pedir orientación en un grupo de Facebook",
+   "lang": "es",
+   "intro": "Para grupos de migrantes de tu país. Escríbelo en el grupo o por mensaje privado.",
+   "text": "Hola a todos. Soy {name}, llego a {city} el {date} con visa de {visa}. Estoy buscando [habitación / trabajo / orientación]. ¿Alguien que ya esté por allá me puede recomendar zonas, transporte o cómo empezar a buscar trabajo? Gracias de antemano.",
+   "warn": "No publiques tu pasaporte, tu dirección exacta ni tu teléfono en el grupo. Escribe por mensaje privado y verifica a la persona antes de enviar dinero."
+  },
+  {
+   "id": "host",
+   "title": "Escribir a un alojamiento (en inglés)",
+   "lang": "en",
+   "intro": "Para hostales, casas compartidas o anfitriones.",
+   "text": "Hi, my name is {name}. I'm arriving in {city} on {date} and I'm looking for a room for [number] nights. Is it still available? Could you please tell me the price, the bond (if any), what is included, and the house rules? Could I see photos or have a video call before paying? Thank you.",
+   "tr": "Hola, me llamo {name}. Llego a {city} el {date} y busco una habitación por [número] noches. ¿Sigue disponible? ¿Podría decirme el precio, el bond (si hay), qué incluye y las reglas de la casa? ¿Podría ver fotos o hacer una videollamada antes de pagar? Gracias."
+  },
+  {
+   "id": "job",
+   "title": "Pedir trabajo por correo o mensaje (en inglés)",
+   "lang": "en",
+   "intro": "Para enviar con tu CV adjunto a un negocio o una oferta.",
+   "text": "Hi [name of manager],\n\nMy name is {name}. I'm looking for work as a [job title] in {city}. I have [number] years of experience in [area]. I'm available [weekdays / weekends / evenings] and can start immediately. I have the right to work in Australia (on a {visa}). I've attached my CV. Could we arrange a time to talk, or can I drop in?\n\nKind regards,\n{name}",
+   "tr": "Hola [nombre del encargado]:\n\nMe llamo {name}. Busco trabajo como [cargo] en {city}. Tengo [número] años de experiencia en [área]. Estoy disponible [entre semana / fines de semana / noches] y puedo empezar de inmediato. Tengo permiso de trabajo en Australia (visa: {visa}). Adjunto mi CV. ¿Podemos acordar un momento para hablar, o puedo pasar por el local?\n\nSaludos cordiales,\n{name}"
+  },
+  {
+   "id": "firstday",
+   "title": "Antes de empezar un trabajo: confirma lo básico (en inglés)",
+   "lang": "en",
+   "intro": "Envíalo antes de tu primer turno para tener todo por escrito.",
+   "text": "Hi [name of manager],\n\nThanks for the opportunity. Before I start, could you please confirm my hourly rate, my days and hours, whether I will receive a payslip and super, and who my supervisor is?\n\nThank you,\n{name}",
+   "tr": "Hola [nombre del encargado]:\n\nGracias por la oportunidad. Antes de empezar, ¿podría confirmarme mi tarifa por hora, mis días y horarios, si recibiré recibo de sueldo y super, y quién será mi supervisor?\n\nGracias,\n{name}"
+  }
+ ],
+ "help": [
+  {
+   "name": "Emergencias: policía, ambulancia y bomberos",
+   "tel": "000",
+   "label": "000",
+   "note": "Llama aquí si hay peligro inmediato para la vida o la seguridad de alguien."
+  },
+  {
+   "name": "Lifeline",
+   "tel": "131114",
+   "label": "13 11 14",
+   "note": "Apoyo emocional en crisis, a cualquier hora."
+  },
+  {
+   "name": "Beyond Blue",
+   "tel": "1300224636",
+   "label": "1300 22 4636",
+   "note": "Apoyo para ansiedad y depresión."
+  },
+  {
+   "name": "1800RESPECT",
+   "tel": "1800737732",
+   "label": "1800 737 732",
+   "note": "Apoyo ante violencia doméstica, familiar y sexual."
+  },
+  {
+   "name": "Healthdirect",
+   "tel": "1800022222",
+   "label": "1800 022 222",
+   "note": "Orientación de salud para saber a dónde ir."
+  },
+  {
+   "name": "Fair Work Ombudsman",
+   "tel": "131394",
+   "label": "13 13 94",
+   "note": "Dudas o problemas en el trabajo (pago, horas, contrato). Para un intérprete gratis, llama primero al 13 14 50."
+  },
+  {
+   "name": "Intérprete (TIS National)",
+   "tel": "131450",
+   "label": "131 450",
+   "note": "Servicio de interpretación telefónica del gobierno."
+  }
+ ],
+ "helpNote": "Si no sabes si es una emergencia, llama al 000. Tu consulado en Australia también puede ayudarte si pierdes tu pasaporte o tienes un problema grave.",
+ "moneyTools": [
+  {
+   "label": "MoneySmart: planificador de presupuesto",
+   "url": "https://moneysmart.gov.au/budgeting/budget-planner"
+  },
+  {
+   "label": "Calculadora de costo de vida de Study Australia",
+   "url": "https://costofliving.studyaustralia.gov.au/"
+  },
+  {
+   "label": "CommBank: nuevo en Australia",
+   "url": "https://www.commbank.com.au/moving-to-australia.html"
+  },
+  {
+   "label": "Westpac: nuevo en Australia",
+   "url": "https://www.westpac.com.au/international-travel/new-to-australia/"
+  }
+ ]
+}

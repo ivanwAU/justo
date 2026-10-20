@@ -1,43 +1,92 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Justo · Primeras 8 semanas</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Justo: tus primeras semanas en Australia</title>
+  <meta name="description" content="Guía y lista de pasos para migrantes que llegan a Australia: alojamiento, dinero, trabajo y trámites, en el orden que importa. Gratis. Tu progreso se guarda solo en tu dispositivo.">
+  <meta name="theme-color" content="#F1F5F4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0B1F25" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
+  <meta property="og:title" content="Justo: tus primeras semanas en Australia">
+  <meta property="og:description" content="Una guía con lista de pasos, cálculo de tu colchón de dinero y un plan para conseguir trabajo.">
+  <meta property="og:type" content="website">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Justo</h1>
-            <p class="tagline" id="tagline"></p>
-        </header>
+  <a class="skip" href="#main" data-t="app.skip">Saltar al contenido</a>
 
-        <div class="language-switcher">
-            <button class="lang-btn active" data-lang="es">Español</button>
-            <button class="lang-btn" data-lang="en">English</button>
-            <button class="lang-btn" data-lang="pt">Português</button>
-        </div>
-
-        <main>
-            <div class="progress-bar">
-                <div class="progress-fill" id="progressFill"></div>
-            </div>
-            <p class="progress-text" id="progressText"></p>
-
-            <div class="content" id="content"></div>
-
-            <div class="actions">
-                <button id="prevBtn" class="btn btn-secondary"></button>
-                <button id="nextBtn" class="btn btn-primary"></button>
-            </div>
-        </main>
-
-        <footer>
-            <p id="footerText"></p>
-        </footer>
+  <header class="top">
+    <div class="top-inner">
+      <a class="brand" href="#plan" aria-label="Justo, ir a tu plan">
+        <svg class="mark" viewBox="0 0 44 26" aria-hidden="true" focusable="false">
+          <rect class="z1" x="0" y="0" width="6" height="26" rx="1.5"/>
+          <rect class="z1" x="7.6" y="0" width="6" height="26" rx="1.5"/>
+          <rect class="z2" x="15.2" y="0" width="6" height="26" rx="1.5"/>
+          <rect class="z2" x="22.8" y="0" width="6" height="26" rx="1.5"/>
+          <rect class="z3" x="30.4" y="0" width="6" height="26" rx="1.5"/>
+          <rect class="z0" x="38" y="1" width="5" height="24" rx="1.5"/>
+        </svg>
+        <span class="brand-text">
+          <span class="brand-name">Justo</span>
+          <span class="brand-tag" data-t="app.tagline">Tus primeras semanas en Australia</span>
+        </span>
+      </a>
+      <div class="top-actions">
+        <button type="button" class="btn btn-small btn-ghost" id="btn-help" data-t="btn.help">Ayuda</button>
+        <button type="button" class="btn btn-small btn-ghost" id="btn-profile" data-t="btn.profile">Mi perfil</button>
+      </div>
     </div>
+    <div class="meter" id="meter" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" data-t-label="meter.label" aria-label="Progreso total" hidden>
+      <div class="meter-fill" id="meter-fill"></div>
+    </div>
+  </header>
 
-    <script src="app.js"></script>
+  <div class="banner" id="storage-banner" role="status" hidden data-t="storage.banner">Tu navegador no permite guardar datos (por ejemplo, en modo privado). Verás tu progreso mientras no cierres esta pestaña.</div>
+
+  <main id="main" tabindex="-1">
+    <p class="loading">Cargando… · Loading… · Carregando…</p>
+  </main>
+
+  <footer class="foot">
+    <div id="foot-lang" class="foot-lang"></div>
+    <p data-t="foot.privacy">Justo no tiene cuentas ni servidores. Lo que escribes se guarda solo en este dispositivo y no se envía a nadie.</p>
+    <p data-t="foot.disclaimer">Información general: no es asesoría legal, migratoria ni financiera. Confirma siempre en las fuentes oficiales.</p>
+    <p id="footer-feedback" hidden><button type="button" class="btn-link" data-t="foot.feedback">Enviar comentarios (son privados)</button></p>
+    <p class="foot-small" data-t="foot.updated">Contenido revisado en octubre de 2026.</p>
+  </footer>
+
+  <nav class="tabs" data-t-label="nav.label" aria-label="Secciones de Justo">
+    <a class="tab" href="#plan">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 6v12"/><circle cx="5" cy="6" r="1.6"/><circle cx="5" cy="12" r="1.6"/><circle cx="5" cy="18" r="1.6"/><path d="M10 6h10M10 12h10M10 18h10"/></svg>
+      <span data-t="nav.plan">Plan</span>
+    </a>
+    <a class="tab" href="#trabajo">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7M3 13h18"/></svg>
+      <span data-t="nav.work">Trabajo</span>
+    </a>
+    <a class="tab" href="#dinero">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2.5" y="6" width="19" height="12" rx="2"/><circle cx="12" cy="12" r="2.6"/><path d="M6 12h.01M18 12h.01"/></svg>
+      <span data-t="nav.money">Dinero</span>
+    </a>
+    <a class="tab" href="#recursos">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H11v16H5.5A1.5 1.5 0 0 1 4 18.5zM20 5.5A1.5 1.5 0 0 0 18.5 4H13v16h5.5a1.5 1.5 0 0 0 1.5-1.5z"/></svg>
+      <span data-t="nav.res">Recursos</span>
+    </a>
+  </nav>
+
+  <div id="live" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <noscript>
+    <p class="noscript">Justo necesita JavaScript para mostrar tu lista de pasos. Actívalo en tu navegador e inténtalo de nuevo.<br>
+    Justo needs JavaScript to show your checklist. Turn it on in your browser and try again.<br>
+    O Justo precisa de JavaScript para mostrar sua lista de passos. Ative-o no navegador e tente de novo.</p>
+  </noscript>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
